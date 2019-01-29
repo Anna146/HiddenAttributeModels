@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-sys.path.insert(0, '/home/tigunova/PycharmProjects/ham_rep/utils')
+sys.path.insert(0, 'utils')
 from init import sacred_init
         
 ex, model_cls, param_defaults, param_types = sacred_init('run')
