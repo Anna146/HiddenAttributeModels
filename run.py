@@ -1,6 +1,6 @@
 """
 To run:
-python run.py with hidden_size=$HS batch_size=$BS model=MLP train_set="/data/ff_test.txt"
+python run.py with hidden_size=$HS batch_size=$BS model=MLP train_set="data/ff_test.txt"
 """
 
 import json
