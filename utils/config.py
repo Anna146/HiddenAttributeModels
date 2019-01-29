@@ -22,11 +22,11 @@ def pipeline_config():
     seed = 33
     mode = "grid"
     grid_file = "%s/%s_%s.txt" % (grids_dir, model, expname)
-    train_folder = "/home/tigunova/PycharmProjects/reddit_data/data/categorized/train_profession"
-    test_set = "/home/tigunova/PycharmProjects/reddit_data/data/categorized/test_profession.txt"
+    train_folder = "data/train_profession"
+    test_set = "data/test_profession.txt"
     results_file = ""
 
     # vocabulary
-    weights_path = "/home/tigunova/Documents/google-models/GoogleNews-vectors-negative300_reddit.npy"
+    weights_path = "data/GoogleNews-vectors-negative300_reddit.npy"
 
     return locals().copy()  # ignored by sacred
