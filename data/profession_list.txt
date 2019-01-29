@@ -1,0 +1,43 @@
+activist
+policeman
+monarch
+stewardess
+military personnel
+banker
+airplane pilot
+writer
+professor
+driver
+astronaut
+businessperson
+editor
+painter
+salesperson
+criminal
+child
+lawyer
+explorer
+priest
+sportsman
+waiter
+school teacher
+actor
+special agent
+tv/radio presenter
+journalist
+photographer
+manager
+doctor
+scientist
+unemployed
+politician
+detective
+student
+engineer
+clerk
+director
+psychologist
+housewife
+assistant
+musician
+nurse
