@@ -190,29 +190,6 @@ def compute_accuracy(filepath, offset=0):
             y_pred.append(int(fields[1+offset].split(",")[0][1:]))
     return accuracy_score(y_true, y_pred)
 
-from scipy.stats import ttest_rel
-import statsmodels.api as sm
-
-def significance_MRR(file1, file2):
-    _, d1, h1 = compute_MRR_per_character(file1, "/home/tigunova/out.txt", True)
-    _, d2, h2 = compute_MRR_per_character(file2, "/home/tigunova/out.txt", True)
-    inter_keys = set(d1.keys()).intersection(set(d2.keys()))
-    y1 = []
-    y2 = []
-    for k, v in d1.items():
-        if k in inter_keys:
-            y1.append(v)
-            y2.append(d2[k])
-    # construct table
-    ww = len([x for x in inter_keys if h1[x] == 0 and h2[x] == 0])
-    wc = len([x for x in inter_keys if h1[x] == 1 and h2[x] == 0])
-    cw = len([x for x in inter_keys if h1[x] == 0 and h2[x] == 1])
-    cc = len([x for x in inter_keys if h1[x] == 1 and h2[x] == 1])
-    table = [[ww, wc], [cw, cc]]
-    print("AUROC significance " + str(sm.stats.mcnemar(table, exact=True, correction=True)))
-    print("MRR significance " + str(ttest_rel(y1, y2)))
-    return ttest_rel(y1, y2)
-
 
 def compute_stats_dump(test_file, dump_dir):
     confusion_file = "output_data/confusion_matrix.txt"
