@@ -22,11 +22,11 @@ def pipeline_config():
     seed = 33
     mode = "grid"
     grid_file = "%s/%s_%s.txt" % (grids_dir, model, expname)
-    train_folder = "data/train_profession"
-    test_set = "data/test_profession.txt"
+    train_folder = "data/reddit_data/train_profession"
+    test_set = "data/reddit_data/test_profession.txt"
     results_file = ""
 
     # vocabulary
-    weights_path = "data/GoogleNews-vectors-negative300_reddit.npy"
+    weights_path = "data/reddit_data/weights.npy"
 
 return locals().copy()
