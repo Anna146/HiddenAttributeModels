@@ -22,8 +22,8 @@ def pipeline_config():
     seed = 33
     mode = "grid"
     grid_file = "%s/%s_%s.txt" % (grids_dir, model, expname)
-    train_folder = "/home/tigunova/PycharmProjects/reddit_data/data/categorized/train_profession"
-    test_set = "/home/tigunova/PycharmProjects/reddit_data/data/categorized/test_profession.txt"
+    train_folder = "/home/tigunova/PycharmProjects/reddit_data/data/categorized_persona/train_profession"
+    test_set = "/home/tigunova/PycharmProjects/reddit_data/data/categorized_persona/test_profession.txt"
     results_file = ""
 
     # vocabulary

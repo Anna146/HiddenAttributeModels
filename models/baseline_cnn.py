@@ -99,8 +99,8 @@ class CNNbaseline(MODEL_BASE):
         k = 1
 
         # input params
-        char_len = 100
-        utter_len = 100
+        char_len = 40
+        utter_len = 40
         embedding_len = 300
         predicate_num = 43
         dataset_len = 1000
@@ -201,7 +201,7 @@ class CNNbaseline(MODEL_BASE):
                                  sorted(enumerate(np.exp(entry)), key=lambda x: x[1], reverse=True)]) + '\n')
                 results_file.close()
 
-                mrr_character = compute_MRR_per_character(results_file.name, outcome_file="/home/tigunova/outc.txt")
+                mrr_character = compute_MRR_per_character(results_file.name)
                 macro_mrr = compute_MRR_per_prof(results_file.name, 1)
                 auroc = compute_auroc(results_file.name, 1)
                 grid_file.write(

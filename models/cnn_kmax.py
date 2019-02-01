@@ -89,12 +89,12 @@ class CNNkmax(MODEL_BASE):
     @staticmethod
     def config():
         # model params
-        kernel_num = 256
+        kernel_num = 178
         k = 5
 
         # input params
-        char_len = 40
-        utter_len = 40
+        char_len = 100
+        utter_len = 100
         embedding_len = 300
         predicate_num = 43
         dataset_len = 1000
@@ -104,8 +104,8 @@ class CNNkmax(MODEL_BASE):
         reg_lambda = 2e-7
 
         # training params
-        num_epochs = 500
-        batch_size = 4
+        num_epochs = 40
+        batch_size = 32
         max_batch_epoch = dataset_len // batch_size
 
         model_path = ""
@@ -193,7 +193,7 @@ class CNNkmax(MODEL_BASE):
                              sorted(enumerate(np.exp(entry)), key=lambda x: x[1], reverse=True)]) + '\n')
                 results_file.close()
 
-                mrr_character = compute_MRR_per_character(results_file.name, outcome_file="/home/tigunova/out_gold.txt")
+                mrr_character = compute_MRR_per_character(results_file.name)
                 macro_mrr = compute_MRR_per_prof(results_file.name, 1)
                 auroc = compute_auroc(results_file.name, 1)
                 grid_file.write(str(epoch + 1) + "\t" + str(mrr_character) + "\t" + str(macro_mrr) + "\t" + str(auroc[0]) + "\n")

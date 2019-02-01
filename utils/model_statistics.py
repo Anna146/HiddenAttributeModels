@@ -213,14 +213,17 @@ def significance_MRR(file1, file2):
     print("MRR significance " + str(ttest_rel(y1, y2)))
     return ttest_rel(y1, y2)
 
+
 def compute_stats_dump(test_file, dump_dir):
     confusion_file = "output_data/confusion_matrix.txt"
     macro = compute_MRR_per_prof(test_file, 1)
+    #macro = compute_MFR_per_prof(test_file, 1)
     mrr_character = compute_MRR_per_character(test_file, confusion_file=confusion_file)
     print("Micro MRR: " + str(mrr_character))
     print("Auroc " + str(compute_auroc(test_file, 1)))
     print("MACRO Auroc " + str(compute_multi_auroc(test_file, 1)))
     print("accuracy " + str(compute_accuracy(test_file, 1)))
+    #print("ndcg " + str(compute_ndcg_macro(test_file, 1)))
     with open(dump_dir, "w") as dump_file:
         dump_file.write("Character MRR: " + str(mrr_character) + "\n")
         dump_file.write("Macro MRR: " + str(macro) + "\n")
