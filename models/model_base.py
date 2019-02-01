@@ -1,6 +1,6 @@
 
 import sys
-sys.path.insert(0, '/home/tigunova/PycharmProjects/ham_rep/utils')
+sys.path.insert(0, 'utils')
 from config import paramstring_skip, always_params
 
 

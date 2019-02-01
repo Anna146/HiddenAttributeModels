@@ -1,6 +1,6 @@
 """
 To run:
-python run.py with hidden_size=$HS batch_size=$BS model=MLP train_set="/data/ff_test.txt"
+python run.py with hidden_size=$HS batch_size=$BS model=MLP train_set="data/ff_test.txt"
 """
 
 import json
@@ -11,7 +11,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-sys.path.insert(0, '/home/tigunova/PycharmProjects/ham_rep/utils')
+sys.path.insert(0, 'utils')
 from init import sacred_init
         
 ex, model_cls, param_defaults, param_types = sacred_init('run')

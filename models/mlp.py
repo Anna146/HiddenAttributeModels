@@ -10,7 +10,7 @@ from torch import autograd
 
 from .model_base import MODEL_BASE
 
-sys.path.insert(0, '/home/tigunova/PycharmProjects/ham_rep/utils')
+sys.path.insert(0, 'utils')
 from model_statistics import *
 
 device = torch.device(torch.device("cuda:0" if torch.cuda.is_available() else "cpu"))
