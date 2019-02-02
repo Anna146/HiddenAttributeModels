@@ -1,5 +1,3 @@
-# add some readme don't be lazy
-
 # Data format
 
 The dataset for each attribute consists of a training folder (/train_predicate/) and a text file (/test_predicate.txt). Inside training folder are the training instances in separate files for each attribute value, in test file the instances are from all values.
