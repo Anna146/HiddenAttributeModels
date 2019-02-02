@@ -23,7 +23,6 @@ def load_predicates(filepath):
 
 def compute_MRR_per_prof(filepath, offset = 0):
     prof_dict = defaultdict(lambda: [0.0,0])
-    predicates, _ = load_predicates("/home/tigunova/PycharmProjects/movie_experiment/raw_data/profession_list.txt")
     big_count = 0
     big_MRR = 0
     with open(filepath, "r") as f_in:
@@ -40,6 +39,7 @@ def compute_MRR_per_prof(filepath, offset = 0):
         for prof, stats in prof_dict.items():
             big_count += 1
             big_MRR += float(stats[0] / stats[1])
+            print(prof, float(stats[0] / stats[1]))
     print("MACR0 MRR " + str(big_MRR / big_count))
     return big_MRR / big_count
 
