@@ -149,12 +149,12 @@ def age_to_label(age):
 
 
 def create_sample(predicate, inp_file):
-    in_folder = "/data/whitelists/train_" + predicate + "/"
-    in_test = "/data/whitelists/test_" + predicate + ".txt"
+    in_folder = "/data/reddit/whitelists/train_" + predicate + "/"
+    in_test = "/data/reddit/whitelists/test_" + predicate + ".txt"
 
 
-    train_folder = "/data/train_" + predicate + "/"
-    test_file = "/data/test_" + predicate + ".txt"
+    train_folder = "/data/reddit/train_" + predicate + "/"
+    test_file = "/data/reddit/test_" + predicate + ".txt"
 
     if not os.path.exists(train_folder):
         os.makedirs(train_folder)
@@ -228,4 +228,4 @@ def create_sample(predicate, inp_file):
                     curr_prof = -1
                 texts = [line[2]]
 
-create_sample(predicate = "profession", inp_file = "")
+create_sample(predicate = "profession", inp_file = "/data/raw/professions_txt.txt")
