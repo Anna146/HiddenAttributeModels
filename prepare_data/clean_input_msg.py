@@ -1,7 +1,7 @@
 import re
 
-input = ""
-output = ""
+input = "/data/raw/professions.txt"
+output = "/data/raw/professions_txt.txt"
 
 with open(input, "r") as f_in, open(output, "w") as f_out:
     for line in f_in:
