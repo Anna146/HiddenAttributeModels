@@ -146,4 +146,4 @@ def classify_users(predicate, inp_file):
                 tot_ct += len(to_write)
 
 
-classify_users("profession", inp_file = "/data/raw/professions.txt")
+classify_users("profession", inp_file = "")
