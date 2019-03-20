@@ -1,13 +1,13 @@
 # Data
-Data is taked from the 
+Data is taken from the https://files.pushshift.io/reddit/
 
 Both comments and submissions are taken. 
 
 The input file for each predicate is in format [author_id \t predicate_value \t message_id]. Get the message texts yourself, the text to be taken is 'selftext' + 'body' + 'title' from api's json. After that run prepare_data/clean_input_msg.py to clean the message's text.
 
-Then run categorize_authors.py to split all users into train files (one for each predicate) and test file.
+Then run prepare_data/categorize_users.py to split all users into train files (one for each predicate) and test file.
 
-Then run form_sample.py to get the vocabulary indexing of all the messages corresponding to the authors from the split above.
+Then run prepare_data/form_input_samples.py to get the vocabulary indexing of all the messages corresponding to the authors from the split above.
 
 # Data format
 
