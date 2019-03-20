@@ -83,8 +83,8 @@ def age_to_label(age):
 
 
 def classify_users(predicate, inp_file):
-    test_file = "/data/whitelists/test_" + predicate + ".txt"
-    train_dir = "/data/whitelists/train_" + predicate + "/"
+    test_file = "/data/reddit/whitelists/test_" + predicate + ".txt"
+    train_dir = "/data/reddit/whitelists/train_" + predicate + "/"
 
     if not os.path.exists(train_dir):
         os.makedirs(train_dir)
@@ -146,4 +146,4 @@ def classify_users(predicate, inp_file):
                 tot_ct += len(to_write)
 
 
-classify_users("profession", inp_file = "")
+classify_users("profession", inp_file = "/data/raw/professions_txt.txt")
