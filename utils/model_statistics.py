@@ -44,7 +44,7 @@ def compute_MRR_per_prof(filepath, offset = 0):
     return big_MRR / big_count
 
 
-def compute_MRR_per_character(filepath, confusion_file = "/data/confusion_matrix.txt", return_rrs = False):
+def compute_MRR_per_character(filepath, confusion_file = "data/confusion_matrix.txt", return_rrs = False):
     old_answ = ""
     curr_dict = defaultdict(float)
     big_sum = 0

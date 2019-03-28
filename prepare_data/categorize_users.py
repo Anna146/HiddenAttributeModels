@@ -5,7 +5,7 @@ import os
 
 ################# Check if the post was used for labeling ###########################################################
 
-syn_dict = eval(open('/data/prof_synonyms.txt', 'r').read())
+syn_dict = eval(open('data/prof_synonyms.txt', 'r').read())
 syn_list = list(syn_dict.keys()) + sum(syn_dict.values(), [])
 male_list = ["man", "male", "boy", "husband", "father", "brother"]
 female_list = ["woman", "female", "girl", "lady", "wife", "mother", "sister"]
@@ -83,8 +83,8 @@ def age_to_label(age):
 
 
 def classify_users(predicate, inp_file):
-    test_file = "/data/reddit/whitelists/test_" + predicate + ".txt"
-    train_dir = "/data/reddit/whitelists/train_" + predicate + "/"
+    test_file = "data/reddit/whitelists/test_" + predicate + ".txt"
+    train_dir = "data/reddit/whitelists/train_" + predicate + "/"
 
     if not os.path.exists(train_dir):
         os.makedirs(train_dir)
@@ -146,4 +146,4 @@ def classify_users(predicate, inp_file):
                 tot_ct += len(to_write)
 
 
-classify_users("profession", inp_file = "/data/raw/professions_txt.txt")
+classify_users("profession", inp_file = "data/raw/professions_txt.txt")

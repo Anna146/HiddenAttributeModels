@@ -7,10 +7,10 @@ import os
 
 DEFAULT_PADDING_TOKEN = "@@PADDING@@"
 
-sys.path.insert(0, '/utils')
+sys.path.insert(0, 'utils')
 from model_statistics import *
 
-vocab_path = "/data/vocab.txt"
+vocab_path = "data/vocab.txt"
 with open(vocab_path, "r") as f:
     vocab = dict((line.strip(), index) for index, line in enumerate(f.readlines()))
 unkn_ind = len(vocab)
@@ -76,7 +76,7 @@ def embed_user(inp_label, train_file, act_file, batch_size=1, character_id=0, in
 
 ################# Check if the post was used for labeling ###########################################################
 
-syn_dict = eval(open('/data/prof_synonyms.txt', 'r').read())
+syn_dict = eval(open('data/prof_synonyms.txt', 'r').read())
 syn_list = list(syn_dict.keys()) + sum(syn_dict.values(), [])
 male_list = ["man", "male", "boy", "husband", "father", "brother"]
 female_list = ["woman", "female", "girl", "lady", "wife", "mother", "sister"]
@@ -135,7 +135,7 @@ def is_iama(line, predicate):
 ######################### Parameters  ######################################################
 
 age_map = {(0,13):"child", (14,23):"teenager", (24,45):"adult", (46,65):"middle-aged", (66,100):"senior"}
-predicate_file ="/data/profession_list.txt"
+predicate_file ="data/profession_list.txt"
 
 
 #####################################################################################
@@ -149,12 +149,12 @@ def age_to_label(age):
 
 
 def create_sample(predicate, inp_file):
-    in_folder = "/data/reddit/whitelists/train_" + predicate + "/"
-    in_test = "/data/reddit/whitelists/test_" + predicate + ".txt"
+    in_folder = "data/reddit/whitelists/train_" + predicate + "/"
+    in_test = "data/reddit/whitelists/test_" + predicate + ".txt"
 
 
-    train_folder = "/data/reddit/train_" + predicate + "/"
-    test_file = "/data/reddit/test_" + predicate + ".txt"
+    train_folder = "data/reddit/train_" + predicate + "/"
+    test_file = "data/reddit/test_" + predicate + ".txt"
 
     if not os.path.exists(train_folder):
         os.makedirs(train_folder)
@@ -228,4 +228,4 @@ def create_sample(predicate, inp_file):
                     curr_prof = -1
                 texts = [line[2]]
 
-create_sample(predicate = "profession", inp_file = "/data/raw/professions_txt.txt")
+create_sample(predicate = "profession", inp_file = "data/raw/professions_txt.txt")
