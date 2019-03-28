@@ -5,17 +5,18 @@ import os
 
 ################# Check if the post was used for labeling ###########################################################
 
-syn_dict = eval(open('data/prof_synonyms.txt', 'r').read())
+syn_dict = eval(open("data/prof_synonyms.txt", "r").read())
 syn_list = list(syn_dict.keys()) + sum(syn_dict.values(), [])
 male_list = ["man", "male", "boy", "husband", "father", "brother"]
 female_list = ["woman", "female", "girl", "lady", "wife", "mother", "sister"]
 married_list = ["married", "engaged", "dating", "boyfriend", "spouse", "girlfriend", "fiancee", "lover", "partner", "wife", "husband"]
 unmarried_list = ["single", "divorsed", "widow", "spouseless", "celibate", "unwed", "fancy-free"]
 
+
 def is_iama(line, predicate):
     if predicate == "profession":
-        impos = min([line.find(p) for p in ["i am", "i'm"] if p in line]+[1000000000])
-        if impos != 1000000000:
+        impos = min([line.find(p) for p in ["i am", "i'm"] if p in line] + [1_000_000_000])
+        if impos != 1_000_000_000:
             for itm in syn_list:
                 if line.find(" " + itm + " ", impos + 4, impos + len(itm) + 8) != -1:
                     return True
@@ -33,7 +34,7 @@ def is_iama(line, predicate):
         if born_pos != -1:
             if_pos = line.find("if ", min(0, born_pos - 20, born_pos))
             if if_pos == -1:
-                born_year = "".join(x for x in line[born_pos + 9:born_pos + 20].split(" ") if x.isdigit())
+                born_year = "".join(x for x in line[born_pos + 9 : born_pos + 20].split(" ") if x.isdigit())
                 try:
                     born_year = int(born_year)
                     if born_year > 1910 and born_year < 2015:
@@ -42,7 +43,7 @@ def is_iama(line, predicate):
                     pass
         ## check "years old"
         iam_pos = min([line.find(p) for p in ["i am", "i'm"] if p in line] + [sys.maxsize])
-        if (iam_pos != sys.maxsize):
+        if iam_pos != sys.maxsize:
             years_pos = line.find("years old", iam_pos + 4, iam_pos + 20)
             if years_pos != -1:
                 curr_age = "".join(x for x in line[iam_pos:years_pos].split(" ") if x.isdigit())
@@ -64,22 +65,24 @@ def is_iama(line, predicate):
     else:
         raise Exception("Unknown predicate")
 
+
 #####################################  Parameters    ############################################################
 
-age_map = {(0,13):"child", (14,23):"teenager", (24,45):"adult", (46,65):"middle-aged", (66,100):"senior"}
-black_list = ["assistant", "tv presenter", "explorer", 'politician', 'detective', 'movie director', 'housewife', 'activist']
+age_map = {(0, 13): "child", (14, 23): "teenager", (24, 45): "adult", (46, 65): "middle-aged", (66, 100): "senior"}
+black_list = ["assistant", "tv presenter", "explorer", "politician", "detective", "movie director", "housewife", "activist"]
 personals = ["I", "you", "he", "she", "we", "they", "me", "you", "him", "her", "us", "them", "my", "your", "our", "their", "his", "her"]
-threshold = 100 # max users per predicate
-threshold_total = 6000 # max users
+threshold = 100  # max users per predicate
+threshold_total = 6000  # max users
 
 #################################################################################################################
+
 
 def age_to_label(age):
     age = int(age)
     for rang, age_name in age_map.items():
         if rang[0] < age <= rang[1]:
             return age_name
-    raise Exception('bad age')
+    raise Exception("bad age")
 
 
 def classify_users(predicate, inp_file):
@@ -89,7 +92,7 @@ def classify_users(predicate, inp_file):
     if not os.path.exists(train_dir):
         os.makedirs(train_dir)
 
-    prof_dict = defaultdict(lambda : dict())
+    prof_dict = defaultdict(lambda: dict())
     cnt = 0
     all_users = []
 
@@ -136,7 +139,7 @@ def classify_users(predicate, inp_file):
                 if len(auths) < threshold:
                     to_write = list(auths.keys())
                 else:
-                    auth_sorted = sorted(auths.items(), key= lambda x: x[1], reverse=True)[:threshold]
+                    auth_sorted = sorted(auths.items(), key=lambda x: x[1], reverse=True)[:threshold]
                     to_write = [x[0] for x in auth_sorted]
                 for au in to_write:
                     if random.random() > 0.09:
@@ -146,4 +149,4 @@ def classify_users(predicate, inp_file):
                 tot_ct += len(to_write)
 
 
-classify_users("profession", inp_file = "data/raw/professions_txt.txt")
+classify_users("profession", inp_file="data/raw/professions_txt.txt")

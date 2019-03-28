@@ -2,6 +2,7 @@ from collections import defaultdict
 import numpy as np
 import random
 from sklearn.metrics import roc_auc_score
+
 random.seed(33)
 
 DEFAULT_PADDING_TOKEN = "@@PADDING@@"
@@ -10,7 +11,7 @@ DEFAULT_OOV_TOKEN = "@@UNKNOWN@@"
 
 def chunks(l, n):
     n = max(1, n)
-    return list(l[i:i+n] for i in range(0, len(l), n))
+    return list(l[i : i + n] for i in range(0, len(l), n))
 
 
 def load_predicates(filepath):
@@ -21,8 +22,8 @@ def load_predicates(filepath):
     return dict((x[0], x[1]) for x in enumerate(predicates)), predicates
 
 
-def compute_MRR_per_prof(filepath, offset = 0):
-    prof_dict = defaultdict(lambda: [0.0,0])
+def compute_MRR_per_prof(filepath, offset=0):
+    prof_dict = defaultdict(lambda: [0.0, 0])
     big_count = 0
     big_MRR = 0
     with open(filepath, "r") as f_in:
@@ -30,7 +31,7 @@ def compute_MRR_per_prof(filepath, offset = 0):
             fields = line.split("\t")
             answ = fields[0 + offset]
             score = 0
-            for i in enumerate(fields[1 + offset:]):
+            for i in enumerate(fields[1 + offset :]):
                 pred_num = i[1].split(",")[0][1:]
                 if pred_num == answ:
                     score = 1.0 / (i[0] + 1)
@@ -44,7 +45,7 @@ def compute_MRR_per_prof(filepath, offset = 0):
     return big_MRR / big_count
 
 
-def compute_MRR_per_character(filepath, confusion_file = "data/confusion_matrix.txt", return_rrs = False):
+def compute_MRR_per_character(filepath, confusion_file="data/confusion_matrix.txt", return_rrs=False):
     old_answ = ""
     curr_dict = defaultdict(float)
     big_sum = 0
@@ -105,22 +106,25 @@ def compute_MRR_per_character(filepath, confusion_file = "data/confusion_matrix.
     return big_sum / big_count
 
 
-def compute_auroc(filepath, offset = 0):
+def compute_auroc(filepath, offset=0):
     y_true = []
     y_probs = []
     with open(filepath, "r") as f_in:
         for line in f_in:
             fields = line.split("\t")
-            cur_probs = [0 for x in range(len(fields[1 + offset:]))]
-            cur_true = [0 for x in range(len(fields[1 + offset:]))]
+            cur_probs = [0 for x in range(len(fields[1 + offset :]))]
+            cur_true = [0 for x in range(len(fields[1 + offset :]))]
             answ = int(fields[0 + offset])
             cur_true[answ] = 1
-            for i in fields[1 + offset:]:
+            for i in fields[1 + offset :]:
                 pred_num = int(i.split(",")[0][1:])
                 cur_probs[pred_num] = float(i.split(",")[1][:-1].strip(")"))
             y_probs.append(cur_probs)
             y_true.append(cur_true)
-    return (roc_auc_score(np.array(y_true).transpose(), np.array(y_probs).transpose(), average="micro"), roc_auc_score(np.array(y_true).transpose(), np.array(y_probs).transpose(), average="macro"))
+    return (
+        roc_auc_score(np.array(y_true).transpose(), np.array(y_probs).transpose(), average="micro"),
+        roc_auc_score(np.array(y_true).transpose(), np.array(y_probs).transpose(), average="macro"),
+    )
 
 
 from sklearn.metrics import roc_curve, auc
@@ -128,17 +132,18 @@ from sklearn.preprocessing import label_binarize
 
 from scipy import interp
 
-def compute_multi_auroc(filepath, offset = 0):
+
+def compute_multi_auroc(filepath, offset=0):
     y_true = []
     y_probs = []
     class_num = 0
     with open(filepath, "r") as f_in:
         for line in f_in:
             fields = line.split("\t")
-            cur_probs = [0 for x in range(len(fields[1 + offset:]))]
-            class_num = len(fields[1 + offset:])
+            cur_probs = [0 for x in range(len(fields[1 + offset :]))]
+            class_num = len(fields[1 + offset :])
             answ = int(fields[0 + offset])
-            for i in fields[1 + offset:]:
+            for i in fields[1 + offset :]:
                 pred_num = int(i.split(",")[0][1:])
                 cur_probs[pred_num] = float(i.split(",")[1][:-1].strip(")"))
             y_probs.append(cur_probs)
@@ -177,6 +182,7 @@ def compute_multi_auroc(filepath, offset = 0):
 
 from sklearn.metrics import accuracy_score
 
+
 def compute_accuracy(filepath, offset=0):
     big_count = 0
     y_true = []
@@ -187,32 +193,30 @@ def compute_accuracy(filepath, offset=0):
             answ = fields[0 + offset]
             big_count += 1
             y_true.append(int(answ))
-            y_pred.append(int(fields[1+offset].split(",")[0][1:]))
+            y_pred.append(int(fields[1 + offset].split(",")[0][1:]))
     return accuracy_score(y_true, y_pred)
 
 
 def compute_stats_dump(test_file, dump_dir):
     confusion_file = "output_data/confusion_matrix.txt"
     macro = compute_MRR_per_prof(test_file, 1)
-    #macro = compute_MFR_per_prof(test_file, 1)
+    # macro = compute_MFR_per_prof(test_file, 1)
     mrr_character = compute_MRR_per_character(test_file, confusion_file=confusion_file)
     print("Micro MRR: " + str(mrr_character))
     print("Auroc " + str(compute_auroc(test_file, 1)))
     print("MACRO Auroc " + str(compute_multi_auroc(test_file, 1)))
     print("accuracy " + str(compute_accuracy(test_file, 1)))
-    #print("ndcg " + str(compute_ndcg_macro(test_file, 1)))
+    # print("ndcg " + str(compute_ndcg_macro(test_file, 1)))
     with open(dump_dir, "w") as dump_file:
         dump_file.write("Character MRR: " + str(mrr_character) + "\n")
         dump_file.write("Macro MRR: " + str(macro) + "\n")
         dump_file.write("Auroc " + str(compute_auroc(test_file, 1)))
 
 
-
-
 #################################### DATA LOADERS  #################################################################
 
 # expecting format [char_id, true_label, [word_indexes], [sentences]]
-def indexes_gen(filepath, batch_size, word_num, utter_num, dtype=int, k = 0, mode = "test", folds = 1):
+def indexes_gen(filepath, batch_size, word_num, utter_num, dtype=int, k=0, mode="test", folds=1):
     with open(filepath, "r") as f_in:
         counter = 1
         batch_X = np.empty(shape=(batch_size, utter_num * word_num), dtype=dtype)
@@ -228,16 +232,17 @@ def indexes_gen(filepath, batch_size, word_num, utter_num, dtype=int, k = 0, mod
                 rel = (counter - k) % folds
                 if (mode == "train" and rel != 0) or (mode == "test" and rel == 0):
                     data = data.split(",")
-                    batch_X[i] = data[2:2 + word_num * utter_num]
+                    batch_X[i] = data[2 : 2 + word_num * utter_num]
                     batch_y.append(int(data[1]))
                     batch_charids.append(data[0])
-                    batch_sentences.append(data[2 + word_num * utter_num:])
+                    batch_sentences.append(data[2 + word_num * utter_num :])
                     i += 1
                 counter += 1
             yield np.array(batch_X), np.array(batch_y), np.array(batch_charids), np.array(batch_sentences)
 
+
 # expecting format [char_id, true_label, [words], [sentences]]
-def words_gen(filepath, batch_size, word_num, utter_num, dtype=int, k = 0, mode = "test", folds = 1):
+def words_gen(filepath, batch_size, word_num, utter_num, dtype=int, k=0, mode="test", folds=1):
     with open(filepath, "r") as f_in:
         counter = 1
         while True:
@@ -253,13 +258,15 @@ def words_gen(filepath, batch_size, word_num, utter_num, dtype=int, k = 0, mode 
                 rel = (counter - k) % folds
                 if (mode == "train" and rel != 0) or (mode == "test" and rel == 0):
                     data = data.split(",")
-                    slice = data[2:2 + word_num * utter_num]#batch_X = np.append(batch_X, np.array([data[2:2+word_num*utter_num]]).astype(int), axis=0)
+                    slice = data[
+                        2 : 2 + word_num * utter_num
+                    ]  # batch_X = np.append(batch_X, np.array([data[2:2+word_num*utter_num]]).astype(int), axis=0)
                     slice = chunks(slice, word_num)
                     slice = [list(filter(lambda a: a != DEFAULT_PADDING_TOKEN, x)) for x in slice]
                     batch_X.extend(slice)
                     batch_y.append(int(data[1]))
                     batch_charids.append(data[0])
-                    batch_sentences.append(data[2 + word_num * utter_num:])
+                    batch_sentences.append(data[2 + word_num * utter_num :])
                     i += 1
                 counter += 1
             yield batch_X, np.array(batch_y), np.array(batch_charids), np.array(batch_sentences)

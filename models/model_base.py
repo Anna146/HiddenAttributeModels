@@ -1,23 +1,23 @@
-
 import sys
-sys.path.insert(0, 'utils')
+
+sys.path.insert(0, "utils")
 from config import paramstring_skip, always_params
 
 
 class MODEL_BASE(object):
     MODELS = {}
-    
+
     @classmethod
     def register(cls, modelcls):
         name = modelcls.__name__
 
         # ensure we don't have two modules containing model classes with the same name
         if name in cls.MODELS and cls.MODELS[name] != modelcls:
-            raise RuntimeError('encountered two models with the same name: {%s}' % (name))
-        
+            raise RuntimeError("encountered two models with the same name: {%s}" % (name))
+
         cls.MODELS[name] = modelcls
         return modelcls
-    
+
     @staticmethod
     def config():
         raise NotImplementedError("config method must be provided by subclass")
@@ -29,11 +29,11 @@ class MODEL_BASE(object):
     def params_to_string(self, params, skip_check=False):
         """ Convert params to a string """
         params = {k: self.param_types[k](str(v)) for k, v in params.items() if k not in paramstring_skip}
-        s = [params['model']]
+        s = [params["model"]]
 
         for k in sorted(params):
             # handled separately
-            if k == 'model':
+            if k == "model":
                 continue
             if k not in always_params and k in self.param_defaults and params[k] == self.param_defaults[k]:
                 continue
@@ -59,13 +59,13 @@ class MODEL_BASE(object):
 
     def string_to_params(self, s, skip_check=False):
         """ Convert a param string back to a dict """
-        fields = s.split('__')
+        fields = s.split("__")
         modelname = fields[0]
         params = fields[1:]
-        
+
         out = {k: v for k, v in self.param_defaults.items() if k not in paramstring_skip}
-        out['model'] = modelname
-        
+        out["model"] = modelname
+
         for pstr in params:
             print(pstr)
             k, v = pstr.split("--")
@@ -84,8 +84,6 @@ class MODEL_BASE(object):
     @staticmethod
     def save(outfn):
         raise NotImplementedError("should save model to outfn")
-    
+
     def load(self, weight_file):
         raise NotImplementedError("should load model weights from weight file")
-
-

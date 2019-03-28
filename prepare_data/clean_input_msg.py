@@ -8,17 +8,17 @@ with open(input, "r") as f_in, open(output, "w") as f_out:
         line = line.strip().split("\t")
         txt = line[-1].lower()
 
-        pattern = re.compile('#[\w]*')
-        txt = pattern.sub(' ', txt)
-        pattern = re.compile('[\w]*@[\w]*')
-        txt = pattern.sub(' ', txt)
-        txt = re.sub(r'https?:\/\/.*[\r\n]*', '', txt)
-
-        pattern = re.compile('([^\s\w\']|_)+|\d|\t|\n')
-        txt = pattern.sub(' ', txt)
-        pattern = re.compile('\s+')
+        pattern = re.compile("#[\w]*")
         txt = pattern.sub(" ", txt)
-        pattern = re.compile('\.+')
+        pattern = re.compile("[\w]*@[\w]*")
+        txt = pattern.sub(" ", txt)
+        txt = re.sub(r"https?:\/\/.*[\r\n]*", "", txt)
+
+        pattern = re.compile("([^\s\w']|_)+|\d|\t|\n")
+        txt = pattern.sub(" ", txt)
+        pattern = re.compile("\s+")
+        txt = pattern.sub(" ", txt)
+        pattern = re.compile("\.+")
         txt = pattern.sub(".", txt)
 
         post_len = len([x for x in txt.split(" ") if len(x.strip().strip(".")) > 1])
