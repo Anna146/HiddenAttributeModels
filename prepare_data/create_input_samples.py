@@ -195,6 +195,14 @@ def create_sample(predicate, inp_file):
         char_count = 0
         has_ims = None
         for line in f_in:
+            # hack to convert each line from the hadoop output (one file with all predicates)
+            # to the expected input (3 columns + predicate specified by file)
+            keys, txt = line.rstrip().split("\t")
+            this_pred, auth, prof = keys.split(",")
+            if this_pred != predicate:
+                continue
+            line = "%s\t%s\t%s\n" % (auth, prof, txt)
+
             iama = is_iama(line, predicate)
             if iama != "":
                 has_ims = line.strip().split("\t")[2]
@@ -232,4 +240,6 @@ def create_sample(predicate, inp_file):
                 texts = [line[2]]
 
 
-create_sample(predicate="profession", inp_file="data/raw/professions_txt.txt")
+for predicate in ["profession", "age", "gender", "family"]:
+    print("processing", predicate)
+    create_sample(predicate, inp_file="data/raw/posts.txt")

@@ -28,5 +28,5 @@ def pipeline_config():
     # vocabulary
     weights_path = "data/reddit_data/weights.npy"
 
+    return locals().copy()  # ignored by sacred
 
-return locals().copy()

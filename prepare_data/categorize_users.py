@@ -104,9 +104,10 @@ def classify_users(predicate, inp_file):
         has_iama = False
         for line in f_in:
             try:
-                auth = line.split("\t")[0]
-                prof = line.split("\t")[1]
-                txt = line.split("\t")[2]
+                keys, txt = line.rstrip().split("\t")
+                this_pred, auth, prof = keys.split(",")
+                if this_pred != predicate:
+                    continue
                 if predicate == "age":
                     prof = age_to_label(prof)
                 has_iama = has_iama or is_iama(txt, predicate)
@@ -149,4 +150,6 @@ def classify_users(predicate, inp_file):
                 tot_ct += len(to_write)
 
 
-classify_users("profession", inp_file="data/raw/professions_txt.txt")
+for predicate in ["profession", "age", "gender", "family"]:
+    print("processing", predicate)
+    classify_users(predicate, inp_file="data/raw/posts.txt")
