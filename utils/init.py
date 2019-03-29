@@ -35,12 +35,6 @@ def sacred_init(name):
     sacred.SETTINGS.HOST_INFO.CAPTURED_ENV.append("USER")
     ex.captured_out_filter = sacred.utils.apply_backspaces_and_linefeeds
 
-    # log to a database if the credentials file exists
-    if os.path.exists(".sql_url"):
-        from utils.SqlObserver import CustomSqlObserver
-
-        ex.observers.append(CustomSqlObserver.create(url=open(".sql_url", "rt").read().strip()))
-
     # manually parse args to find model name so we can run the model-specific config function
     pipeline_defaults = ex.config(pipeline_config)()
     mname = pipeline_defaults["model"]
