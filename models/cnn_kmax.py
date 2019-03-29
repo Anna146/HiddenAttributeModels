@@ -11,7 +11,7 @@ from torch import autograd
 
 from .model_base import MODEL_BASE
 
-sys.path.insert(0, 'utils')
+sys.path.insert(0, "utils")
 from model_statistics import *
 
 device = torch.device(torch.device("cuda:0" if torch.cuda.is_available() else "cpu"))
@@ -19,9 +19,10 @@ torch.manual_seed(33)
 
 ################################# MODEL ########################
 
+
 def create_emb_layer(weights_matrix, non_trainable=False):
     num_embeddings, embedding_dim = weights_matrix.shape
-    emb_layer = nn.Embedding(num_embeddings, embedding_dim, padding_idx=num_embeddings-1)
+    emb_layer = nn.Embedding(num_embeddings, embedding_dim, padding_idx=num_embeddings - 1)
     emb_layer.weight.data.copy_(torch.from_numpy(weights_matrix))
     if non_trainable:
         emb_layer.weight.requires_grad = False
@@ -32,6 +33,7 @@ def create_emb_layer(weights_matrix, non_trainable=False):
 def kmax_pooling(x, dim, k):
     index = x.topk(k, dim=dim)[1].sort(dim=dim)[0]
     return x.gather(dim, index)
+
 
 class CNN(nn.Module):
     def __init__(self, input_size, kernel_num):
@@ -56,7 +58,7 @@ class CNN(nn.Module):
 
 # Neural Network Model (1 hidden layer)
 class Net(nn.Module):
-    def __init__(self, weights_matrix, char_len , utter_len, predicate_num, kernel_num, k):
+    def __init__(self, weights_matrix, char_len, utter_len, predicate_num, kernel_num, k):
         super(Net, self).__init__()
         self.embedding, num_embeddings, self.embedding_len = create_emb_layer(weights_matrix, True)
         self.sigmoid = nn.Sigmoid()
@@ -122,7 +124,14 @@ class CNNkmax(MODEL_BASE):
 
     def build(self):
         p = self.p
-        self.model = Net(weights_matrix=self.weights, char_len=p["char_len"], utter_len=p["utter_len"], predicate_num=p["predicate_num"], kernel_num=p["kernel_num"], k=p["k"])
+        self.model = Net(
+            weights_matrix=self.weights,
+            char_len=p["char_len"],
+            utter_len=p["utter_len"],
+            predicate_num=p["predicate_num"],
+            kernel_num=p["kernel_num"],
+            k=p["k"],
+        )
         return self.model
 
     def save(self, model_path):
@@ -137,7 +146,7 @@ class CNNkmax(MODEL_BASE):
         weights = np.append(weights.astype(float), np.zeros(shape=(1, 300)), axis=0)
         return weights
 
-    def train(self, train_dir, kk = 0, folds = 10000, grid = False, grid_file = None):
+    def train(self, train_dir, kk=0, folds=10000, grid=False, grid_file=None):
         p = self.p
         net = self.build()
         net.to(device)
@@ -173,24 +182,31 @@ class CNNkmax(MODEL_BASE):
                     loss.backward()
                     optimizer.step()
                     if (i + 1) % 20 == 0:
-                        print('Epoch [%d/%d], Batch [%d], Loss: %.4f' % (epoch + 1, p["num_epochs"], i + 1, loss.item()))
+                        print("Epoch [%d/%d], Batch [%d], Loss: %.4f" % (epoch + 1, p["num_epochs"], i + 1, loss.item()))
                     if i // p["batch_size"] > p["max_batch_epoch"]:
                         break
 
             # Estimate intermediate
             if grid and (epoch + 1) % 10 == 0:
                 net.eval()
-                results_file = tempfile.NamedTemporaryFile(mode='w', delete=False)
-                streams_test = [pescador.Streamer(indexes_gen, ff, 1, p["utter_len"], p["char_len"], k=kk, mode="test", folds=folds) for ff
-                                in train_files]
+                results_file = tempfile.NamedTemporaryFile(mode="w", delete=False)
+                streams_test = [
+                    pescador.Streamer(indexes_gen, ff, 1, p["utter_len"], p["char_len"], k=kk, mode="test", folds=folds) for ff in train_files
+                ]
                 mux_stream_test = pescador.ChainMux(streams_test)
                 for i, (word_idx, label, character, _) in enumerate(mux_stream_test):
                     samples = torch.LongTensor(word_idx.reshape((1, p["utter_len"] * p["char_len"])))
                     samples = samples.to(device)
                     output, _, _ = net(samples)
                     entry = output.cpu().data.numpy()[0]
-                    results_file.write(str(character[0]) + "\t" + str(label[0]) + '\t' + '\t'.join([str(y) for y in
-                             sorted(enumerate(np.exp(entry)), key=lambda x: x[1], reverse=True)]) + '\n')
+                    results_file.write(
+                        str(character[0])
+                        + "\t"
+                        + str(label[0])
+                        + "\t"
+                        + "\t".join([str(y) for y in sorted(enumerate(np.exp(entry)), key=lambda x: x[1], reverse=True)])
+                        + "\n"
+                    )
                 results_file.close()
 
                 mrr_character = compute_MRR_per_character(results_file.name)
@@ -204,7 +220,6 @@ class CNNkmax(MODEL_BASE):
         # Save the Model
         if grid == False:
             self.save(p["model_path"])
-
 
     def validate(self, test_file):
         p = self.p
@@ -224,8 +239,14 @@ class CNNkmax(MODEL_BASE):
 
                 i = 0
                 for entry in output.cpu().data.numpy():
-                    results_file.write(str(characters[i]) + "\t" + str(labels[i]) + '\t' + '\t'.join(
-                            [str(y) for y in sorted(enumerate(np.exp(entry)), key=lambda x: x[1], reverse=True)]) + '\n')
+                    results_file.write(
+                        str(characters[i])
+                        + "\t"
+                        + str(labels[i])
+                        + "\t"
+                        + "\t".join([str(y) for y in sorted(enumerate(np.exp(entry)), key=lambda x: x[1], reverse=True)])
+                        + "\n"
+                    )
                     i += 1
 
         compute_stats_dump(test_file=p["results_file"], dump_dir=p["dump_dir"])

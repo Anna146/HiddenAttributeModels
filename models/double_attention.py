@@ -10,7 +10,7 @@ from torch import autograd
 
 from .model_base import MODEL_BASE
 
-sys.path.insert(0, 'utils')
+sys.path.insert(0, "utils")
 from model_statistics import *
 
 device = torch.device(torch.device("cuda:0" if torch.cuda.is_available() else "cpu"))
@@ -18,9 +18,10 @@ torch.manual_seed(33)
 
 ################################ MODEL ######################################################
 
+
 def create_emb_layer(weights_matrix, non_trainable=False):
     num_embeddings, embedding_dim = weights_matrix.shape
-    emb_layer = nn.Embedding(num_embeddings, embedding_dim, padding_idx=num_embeddings-1)
+    emb_layer = nn.Embedding(num_embeddings, embedding_dim, padding_idx=num_embeddings - 1)
     emb_layer.weight.data.copy_(torch.from_numpy(weights_matrix))
     if non_trainable:
         emb_layer.weight.requires_grad = False
@@ -38,6 +39,7 @@ class AttentionLayer(nn.Module):
         out = self.sigm(self.fc(x))
         return out
 
+
 class AttentionLayer2(nn.Module):
     def __init__(self, input_size, hidden_size_attention):
         super(AttentionLayer2, self).__init__()
@@ -52,19 +54,18 @@ class AttentionLayer2(nn.Module):
 
 
 class Net(nn.Module):
-    def __init__(self, hidden_size, char_len , utter_len, predicate_num, weights_matrix, hidden_size_attention=150, attention_type = 0):
+    def __init__(self, hidden_size, char_len, utter_len, predicate_num, weights_matrix, hidden_size_attention=150, attention_type=0):
         super(Net, self).__init__()
         self.embedding, num_embeddings, self.embedding_len = create_emb_layer(weights_matrix, True)
         self.fc1 = nn.Linear(self.embedding_len, hidden_size)
         self.sigmoid = nn.Sigmoid()
         self.attention1 = AttentionLayer2(self.embedding_len, hidden_size_attention) if attention_type == 1 else AttentionLayer(self.embedding_len)
         self.attention2 = AttentionLayer2(self.embedding_len, hidden_size_attention) if attention_type == 1 else AttentionLayer(self.embedding_len)
-        self.softmax1 = nn.Softmax(dim = 1)
-        self.softmax2 = nn.Softmax(dim = 2)
+        self.softmax1 = nn.Softmax(dim=1)
+        self.softmax2 = nn.Softmax(dim=2)
         self.char_len = char_len
         self.utter_len = utter_len
         self.fc = nn.Linear(hidden_size, predicate_num)
-
 
     def forward(self, x):
         # 0 load embeddings
@@ -101,6 +102,7 @@ class Net(nn.Module):
 
 ########################################################################################################
 
+
 @MODEL_BASE.register
 class DoubleAtt(MODEL_BASE):
     @staticmethod
@@ -108,7 +110,7 @@ class DoubleAtt(MODEL_BASE):
         # model params
         hidden_size = 100
         hidden_size_attention = 150
-        attention_type = 1 # 0 for no hid layer in attention, 1 for with hid layer
+        attention_type = 1  # 0 for no hid layer in attention, 1 for with hid layer
 
         # input params
         char_len = 100
@@ -131,7 +133,6 @@ class DoubleAtt(MODEL_BASE):
 
         return locals().copy()  # ignored by sacred
 
-
     def __init__(self, *args, **kwargs):
         super(DoubleAtt, self).__init__(*args, **kwargs)
         self.p["model_path"] = "%s/%s_%s.pkl" % (self.p["models_dir"], self.p["model_name"], self.p["expname"])
@@ -141,7 +142,15 @@ class DoubleAtt(MODEL_BASE):
 
     def build(self):
         p = self.p
-        self.model = Net(hidden_size=p["hidden_size"], char_len=p["char_len"], utter_len=p["utter_len"], predicate_num=p["predicate_num"], weights_matrix=self.weights, hidden_size_attention=p["hidden_size_attention"], attention_type=p["attention_type"])
+        self.model = Net(
+            hidden_size=p["hidden_size"],
+            char_len=p["char_len"],
+            utter_len=p["utter_len"],
+            predicate_num=p["predicate_num"],
+            weights_matrix=self.weights,
+            hidden_size_attention=p["hidden_size_attention"],
+            attention_type=p["attention_type"],
+        )
         return self.model
 
     def save(self, model_path):
@@ -156,8 +165,7 @@ class DoubleAtt(MODEL_BASE):
         weights = np.append(weights.astype(float), np.zeros(shape=(1, self.p["embedding_len"])), axis=0)
         return weights
 
-
-    def train(self, train_dir, kk = 0, folds = 10000, grid = False, grid_file = None):
+    def train(self, train_dir, kk=0, folds=10000, grid=False, grid_file=None):
         p = self.p
         net = self.build()
         net.to(device)
@@ -193,24 +201,31 @@ class DoubleAtt(MODEL_BASE):
                     loss.backward()
                     optimizer.step()
                     if (i + 1) % 20 == 0:
-                        print('Epoch [%d/%d], Batch [%d], Loss: %.4f' % (epoch + 1, p["num_epochs"], i + 1, loss.item()))
+                        print("Epoch [%d/%d], Batch [%d], Loss: %.4f" % (epoch + 1, p["num_epochs"], i + 1, loss.item()))
                     if i // p["batch_size"] > p["max_batch_epoch"]:
                         break
 
             # Estimate intermediate
             if grid and (epoch + 1) % 10 == 0:
                 net.eval()
-                results_file = tempfile.NamedTemporaryFile(mode='w', delete=False)
-                streams_test = [pescador.Streamer(indexes_gen, ff, 1, p["utter_len"], p["char_len"], k=kk, mode="test", folds=folds) for ff
-                                in train_files]
+                results_file = tempfile.NamedTemporaryFile(mode="w", delete=False)
+                streams_test = [
+                    pescador.Streamer(indexes_gen, ff, 1, p["utter_len"], p["char_len"], k=kk, mode="test", folds=folds) for ff in train_files
+                ]
                 mux_stream_test = pescador.ChainMux(streams_test)
                 for i, (word_idx, label, character, _) in enumerate(mux_stream_test):
                     samples = torch.LongTensor(word_idx.reshape((1, p["utter_len"] * p["char_len"])))
                     samples = samples.to(device)
                     output, _, _ = net(samples)
                     entry = output.cpu().data.numpy()[0]
-                    results_file.write(str(character[0]) + "\t" + str(label[0]) + '\t' + '\t'.join([str(y) for y in
-                             sorted(enumerate(np.exp(entry)), key=lambda x: x[1], reverse=True)]) + '\n')
+                    results_file.write(
+                        str(character[0])
+                        + "\t"
+                        + str(label[0])
+                        + "\t"
+                        + "\t".join([str(y) for y in sorted(enumerate(np.exp(entry)), key=lambda x: x[1], reverse=True)])
+                        + "\n"
+                    )
                 results_file.close()
 
                 mrr_character = compute_MRR_per_character(results_file.name)
@@ -224,7 +239,6 @@ class DoubleAtt(MODEL_BASE):
         # Save the Model
         if grid == False:
             self.save(p["model_path"])
-
 
     def validate(self, test_file):
         p = self.p
@@ -244,8 +258,14 @@ class DoubleAtt(MODEL_BASE):
 
                 i = 0
                 for entry in output.cpu().data.numpy():
-                    results_file.write(str(characters[i]) + "\t" + str(labels[i]) + '\t' + '\t'.join(
-                            [str(y) for y in sorted(enumerate(np.exp(entry)), key=lambda x: x[1], reverse=True)]) + '\n')
+                    results_file.write(
+                        str(characters[i])
+                        + "\t"
+                        + str(labels[i])
+                        + "\t"
+                        + "\t".join([str(y) for y in sorted(enumerate(np.exp(entry)), key=lambda x: x[1], reverse=True)])
+                        + "\n"
+                    )
                     i += 1
 
         compute_stats_dump(test_file=p["results_file"], dump_dir=p["dump_dir"])
