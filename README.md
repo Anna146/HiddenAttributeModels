@@ -9,8 +9,8 @@ Then run prepare_data/categorize_users.py to split all users into train files (o
 
 Then run prepare_data/create_input_samples.py to get the vocabulary indexing of all the messages corresponding to the authors from the split above.
 
-# Data format
 
+# Data format
 The dataset for each attribute consists of a training folder (/train_predicate/) and a text file (/test_predicate.txt). Inside training folder are the training instances in separate files for each attribute value, in test file the instances are from all values.
 
 The format of the train and test file is the following:
@@ -20,6 +20,7 @@ The indexing of labels is according to the indexing of lines in predicae_list.tx
 The indexing of words is according to the /vocabulary.txt file and their respective embeddings are in /weights.txt file
 
 All word indixes arrays are padded, the padding index is the last word + 1 in the vocabulary. The word indexes arrays are 40 * 40 size for MovieChatt and 100 * 100 for Reddit and PersonaChat (utterance_len * subject_len)
+
 
 # Training and testing
 how?
