@@ -26,7 +26,7 @@ All word indixes arrays are padded, the padding index is the last word + 1 in th
 
 To run the model use the following command
 
-> python -u run.py with mode=test model=DoubleAtt [other parameters]
+> python run.py with mode=test model=DoubleAtt [other parameters]
 
 The default list of parameters you find in utils/config.py
 Some parameters are model-specific, refer to the code of the selected model, they are listed in config() function of the model.
