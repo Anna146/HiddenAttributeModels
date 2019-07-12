@@ -1,6 +1,11 @@
 # Reddit Data
 Our Reddit corpus was created using all comments and submissions made between Jan 2006 and October 2018. 
 
+# Requirements
+> sacred==0.7.4
+
+# Raw data
+
 The file data/raw/postids.txt.gz is in the format [predicate \t author_id \t predicate_value \t message_id]. Get the message texts yourself, the text to be taken is 'selftext' + 'body' + 'title' from api's json. You can either crawl only the post ids we used using the Reddit API, or you can obtain all the reddit data from another source, such as https://files.pushshift.io/reddit/
 
 A Hadoop script for automatically extracting the needed messages and cleaning them is available in prepare_data/hadoop/. It expects to find reddit_comments and reddit_submission is in the user's home directory. If you opt to extract the messages yourself rather than using Hadoop, you will need to run prepare_data/clean_input_msg.py to clean the messages' text. 
@@ -9,8 +14,10 @@ Then run prepare_data/categorize_users.py to split all users into train files (o
 
 Then run prepare_data/create_input_samples.py to get the vocabulary indexing of all the messages corresponding to the authors from the split above.
 
+The weights for initializing embedding layers are in https://nextcloud.mpi-klsb.mpg.de/index.php/s/nbyTZq9RLdMT3BK
 
 # Data format
+
 The dataset for each attribute consists of a training folder (/train_predicate/) and a text file (/test_predicate.txt). Inside training folder are the training instances in separate files for each attribute value, in test file the instances are from all values.
 
 The format of the train and test file is the following:
