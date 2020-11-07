@@ -148,7 +148,7 @@ predicate_file = "data/profession_list.txt"
 def age_to_label(age):
     age = int(age)
     for rang, age_name in age_map.items():
-        if rang[0] < age <= rang[1]:
+        if rang[0] <= age <= rang[1]:
             return age_name
     raise Exception("bad age")
 
