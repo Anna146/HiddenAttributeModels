@@ -1,6 +1,10 @@
 # Requirements
 > sacred==0.7.4
 
+# MovieChAtt annotations
+
+Are available in data/gt_labels/
+
 # Reddit Data
 
 The file data/raw/postids.txt.gz is in the format [predicate \t author_id \t predicate_value \t message_id]. Get the message texts yourself, the text to be taken is 'selftext' + 'body' + 'title' from api's json. You can either crawl only the post ids we used using the Reddit API, or you can obtain all the reddit data from another source, such as https://files.pushshift.io/reddit/
