@@ -1,0 +1,1547 @@
+wild at heart,BOBBY,criminal
+the lost boys,MICHAEL,child
+gone in sixty seconds,DONNY ASTRICKY,criminal
+dog day afternoon,LEON,housewife
+mr. smith goes to washington,SAUNDERS,assistant
+superman ii,LEX,criminal
+lost horizon,BARNARD,criminal
+a nightmare on elm street 3: dream warriors,TARYN,unemployed
+the lost world: jurassic park,SARAH,scientist
+antz,BALA,monarch
+toy story,BUZZ,astronaut
+nurse betty,WESLEY,criminal
+cherry falls,BRENT,policeman
+the rock,GOODSPEED,scientist
+charade,DYLE,criminal
+ghostbusters ii,SPENGLER,scientist
+monkeybone,STU,painter
+from dusk till dawn,SETH,criminal
+hostage,KEVIN,criminal
+basic,KENDALL,military personnel
+mrs brown,DISRAELI,politician
+fargo,JERRY,salesperson
+the night of the hunter,PEARL HARPER,child
+star trek: the wrath of khan,BONES,doctor
+apocalypse now,LANCE,military personnel
+blade runner,RACHAEL,assistant
+the ice storm,ELENA,housewife
+mumford,SKIP,businessperson
+the sweet hereafter,MITCHELL,lawyer
+the believer,GUY,journalist
+tombstone,VIRGIL,policeman
+the body snatcher,FETTES,student
+the cell,CATHERINE,psychologist
+raging bull,JOEY,manager
+last of the mohicans,MUNRO,military personnel
+jfk,LOU,detective
+solaris,SNOW,astronaut
+casino,NICKY,criminal
+american madness,CLUETT,banker
+bottle rocket,MR. HENRY,criminal
+grand hotel,BARON,criminal
+back to the future,GEORGE,writer
+nixon,HAIG,politician
+sphere,BARNES,military personnel
+the fisher king,PARRY,unemployed
+a bucket of blood,LOU,policeman
+five easy pieces,TITA,musician
+man on the moon,LYNNE,sportsman
+man on fire,PINTA,child
+austin powers: international man of mystery,VANESSA,special agent
+reindeer games,MERLIN,criminal
+a bucket of blood,LEONARD,businessperson
+say anything...,LLOYD,student
+signs,OFFICER PASKI,policeman
+magnolia,CLAUDIA,unemployed
+taking sides,STEVE,military personnel
+gone in sixty seconds,MEMPHIS,criminal
+a nightmare on elm street part 2: freddy's revenge,GRADY,student
+amadeus,MOZART,musician
+men in black,KAY,special agent
+last of the mohicans,HEYWARD,military personnel
+thunderheart,RAY,special agent
+casablanca,RENAULT,policeman
+mash,HENRY,military personnel
+jennifer eight,ROSS,policeman
+planet of the apes,TAYLOR,astronaut
+total recall,LORI,special agent
+stalag 17,HOFFY,military personnel
+a hard day's night,RINGO,musician
+blade runner,TYRELL,businessperson
+rush hour,CARTER,detective
+rear window,DOYLE,detective
+unforgiven,MUNNY,criminal
+wonder boys,CRABTREE,editor
+l.a. confidential,JACK,detective
+blade,KAREN,doctor
+house on haunted hill,EVELYN,housewife
+the cell,NOVAK,special agent
+the deer hunter,MERLE,military personnel
+gods and monsters,WHALE,director
+star wars,HAN,criminal
+the graduate,MR. ROBINSON,lawyer
+sister act,MARY ROBERT,priest
+philadelphia,ANDREW,lawyer
+mash,TRAPPER,doctor
+assassins,RATH,criminal
+house of 1000 corpses,JERRY,writer
+sunset blvd.,GILLIS,writer
+mission: impossible ii,SWANBECK,special agent
+body of evidence,SHARON,housewife
+nashville,KENNY,musician
+event horizon,MILLER,military personnel
+heavenly creatures,PAULINE,unemployed
+shock treatment,BERT,tv/radio presenter
+out of sight,FOLEY,criminal
+xxx,YORGI,criminal
+thirteen days,KENNY,assistant
+a nightmare on elm street 4: the dream master,RICK,sportsman
+taxi driver,TRAVIS,driver
+l\E9on,LEON,criminal
+scary movie 2,DWIGHT,assistant
+the graduate,BEN,unemployed
+the apartment,SHELDRAKE,director
+kramer vs. kramer,JOANNA,housewife
+get carter,EDNA,housewife
+one flew over the cuckoo's nest,BIG NURSE,nurse
+the family man,KATE,lawyer
+magnolia,JIM KURRING,policeman
+batman returns,MAX,businessperson
+election,TAMMY,student
+sunset blvd.,NORMA,actor
+bull durham,SKIP,sportsman
+the believer,DANNY,criminal
+the jacket,WAITRESS,waiter
+rambo: first blood part ii,CO,special agent
+on the waterfront,CHARLEY,criminal
+blue velvet,DETECTIVE WILLIAMS,detective
+dr. strangelove or: how i learned to stop worrying and love the bomb,GENERAL RIPPER,military personnel
+notting hill,WILLIAM,businessperson
+do the right thing,SAL,businessperson
+le grand bleu,JOHANA,banker
+hardcore,MAST,detective
+affliction,JILL,child
+glengarry glen ross,ROMA,salesperson
+notting hill,ANNA,actor
+sweet smell of success,STEVE,musician
+the insider,MIKE WALLACE,tv/radio presenter
+the truman show,CHRISTOF,director
+ed wood,ED,director
+wonder boys,SARA,professor
+ed wood,BELA,actor
+orgy of the dead,CRISWELL,monarch
+the fisher king,ANNE,businessperson
+the lost world: jurassic park,MALCOLM,scientist
+airplane ii: the sequel,SIMON,stewardess
+basic instinct,NICK,detective
+body of evidence,DULANEY,lawyer
+the day the earth stood still,HELEN,scientist
+fargo,MARGE,policeman
+vertigo,SCOTTIE,detective
+miami vice,JOS\C9 YERO,criminal
+pitch black,FRY,airplane pilot
+i walked with a zombie,DR. MAXWELL,doctor
+sling blade,FRANK,child
+star trek: the motion picture,KIRK,astronaut
+the godfather: part ii,HAGEN,lawyer
+jurassic park,ELLIE,scientist
+thirteen days,THE PRESIDENT,politician
+dog day afternoon,MULVANEY,banker
+star trek iii: the search for spock,KIRK,astronaut
+the crow,ALBRECHT,policeman
+cliffhanger,QUALEN,military personnel
+human nature,LILA,writer
+wonder boys,GRADY,professor
+fantastic voyage,CARTER,military personnel
+the apartment,BUD,clerk
+mission: impossible,CLAIRE,special agent
+donnie darko,GRETCHEN,child
+virtuosity,MADISON,psychologist
+frequency,JULIA,housewife
+nurse betty,BETTY,waiter
+wall street,GEKKO,banker
+pleasantville,DAVID,student
+rko 281,MANK,writer
+young frankenstein,INGA,assistant
+knight moves,CALLER,criminal
+austin powers: international man of mystery,DR. EVIL,criminal
+legally blonde,MARGOT,student
+cool hand luke,DRAGLINE,criminal
+the big lebowski,LEBOWSKI,businessperson
+slither,STARLA,housewife
+traffic,BARBARA,housewife
+the getaway,BEYNON,businessperson
+apocalypse now,CHEF,military personnel
+mr. deeds goes to town,LONGFELLOW,businessperson
+dune,REVEREND MOTHER,priest
+jurassic park iii,AMANDA,housewife
+the avengers,EMMA,special agent
+the body snatcher,MACFARLANE,doctor
+a nightmare on elm street,LT THOMPSON,policeman
+rush hour 2,CARTER,detective
+the ice storm,WENDY,child
+star trek: insurrection,RIKER,military personnel
+an officer and a gentleman,SID,military personnel
+mobsters,SIEGEL,criminal
+star trek vi: the undiscovered country,KIRK,astronaut
+the world is not enough,ZUKOVSKY,businessperson
+pearl harbor,DANNY,military personnel
+rush hour,JOHNSON,detective
+legend,LILI,monarch
+bringing out the dead,WALLS,doctor
+snow falling on cedars,NELS,lawyer
+mr. deeds goes to town,BABE,journalist
+mobsters,MASSERIA,criminal
+star trek iii: the search for spock,DAVID,scientist
+star trek iv: the voyage home,KIRK,astronaut
+casablanca,ILSA,housewife
+backdraft,JENNIFER,assistant
+kalifornia,BRIAN,writer
+hotel rwanda,TATIANA,housewife
+ghostbusters ii,LOUIS,banker
+true lies,GIB,special agent
+sideways,STEPHANIE,waiter
+vertigo,ELSTER,businessperson
+the butterfly effect,KAYLEIGH,student
+duck soup,GROUCHO,activist
+on the waterfront,FATHER BARRY,priest
+twin peaks: fire walk with me,STANLEY,special agent
+rebel without a cause,JUDY,child
+jason goes to hell: the final friday,DUKE,criminal
+men in black,LAUREL,doctor
+affliction,LARIVIERE,politician
+bottle rocket,BOB,driver
+house of 1000 corpses,DENISE,writer
+the thing,GARRY,military personnel
+thunderheart,CROW HORSE,policeman
+the bridges of madison county,ROBERT,photographer
+i walked with a zombie,BETSY,nurse
+jackie brown,LOUIS,criminal
+the bourne supremacy,PAMELA,special agent
+minority report,WITWER,special agent
+wild things,RAY,detective
+gattaca,EUGENE,sportsman
+the curse of the cat people,MRS. FARREN,actor
+erik the viking,AUD,monarch
+scream,CASEY,student
+five easy pieces,RAYETTE,waiter
+american pie,VICKY,student
+bamboozled,MANTAN,actor
+batman forever,CHASE,psychologist
+rebel without a cause,RAY,policeman
+state and main,JOE,writer
+star trek: the motion picture,DECKER,astronaut
+pitch black,RIDDICK,criminal
+slither,GRANT,salesperson
+lone star,DEL,military personnel
+jason lives: friday the 13th part vi,TOMMY,unemployed
+jfk,BILL,lawyer
+clerks.,RANDAL,clerk
+clerks.,DANTE,clerk
+my girl 2,NICK,child
+frequency,JOHN,detective
+star trek: generations,LA FORGE,engineer
+sphere,BETH,scientist
+the crow: salvation,ALEX,criminal
+collateral,ANNIE,lawyer
+made,RICKY,criminal
+the atomic submarine,REEF,military personnel
+star wars: the empire strikes back,HAN,astronaut
+nixon,EHRLICHMAN,lawyer
+panic room,JUNIOR,criminal
+smokin' aces,LOCKE,special agent
+the man in the iron mask,PORTHOS,military personnel
+natural born killers,SCAGNETTI,detective
+young frankenstein,ELIZABETH,unemployed
+austin powers: international man of mystery,AUSTIN,special agent
+jerry maguire,TIDWELL,sportsman
+monty python and the holy grail,ARTHUR,monarch
+chinatown,ESCOBAR,policeman
+fargo,WADE,businessperson
+blast from the past,EVE,unemployed
+sideways,MILES,school teacher
+the lost world: jurassic park,LUDLOW,businessperson
+shallow grave,ALEX,journalist
+the french connection,DOYLE,detective
+taxi driver,TOM,assistant
+the rock,MASON,criminal
+citizen kane,THOMPSON,writer
+scream 2,DEREK,student
+the boondock saints,MURPHY,criminal
+the man in the iron mask,D'ARTAGNAN,military personnel
+godzilla,AUDREY,tv/radio presenter
+quills,ROYER-COLLARD,doctor
+donnie darko,ROSE,housewife
+airplane ii: the sequel,OVEUR,airplane pilot
+thelma & louise,THELMA,housewife
+saving private ryan,SARGE,military personnel
+the relic,PENDERGAST,special agent
+the sixth sense,MALCOLM,psychologist
+kids,RUBY,child
+route 9,BOOTH,policeman
+a nightmare on elm street part 2: freddy's revenge,LISA,student
+rambling rose,WILLCOX HILLYER,child
+gladiator,NARCISSUS,military personnel
+sideways,MAYA,waiter
+the hudsucker proxy,MUSSBURGER,businessperson
+hellboy,MYERS,special agent
+i still know what you did last summer,RAY,student
+kramer vs. kramer,SHAUNESSY,lawyer
+independence day,PRESIDENT,politician
+die hard,MCCLANE,policeman
+contact,PETER,scientist
+jaws: the revenge,HOAGIE,airplane pilot
+the mummy,BENI,criminal
+only you,FAITH,school teacher
+some like it hot,SUGAR,musician
+broadcast news,TOM,tv/radio presenter
+antz,WEAVER,military personnel
+it's a wonderful life,MARY,housewife
+the relic,MARGO,scientist
+i am legend,NEVILLE,scientist
+wonder boys,HANNAH GREEN,student
+brazil,SPOOR,engineer
+malcolm x,BETTY,activist
+hope and glory,DAWN,child
+american psycho,KIMBALL,detective
+halloween 4: the return of michael myers,LOOMIS,doctor
+cruel intentions,ANNETTE,student
+high fidelity,ROB,businessperson
+wild wild west,ARTEMUS,military personnel
+bound,MICKEY,criminal
+halloween,LOOMIS,doctor
+the ploughman's lunch,JAMES,tv/radio presenter
+the ice storm,PAUL,child
+taxi driver,WIZARD,driver
+the deer hunter,NICK,military personnel
+rebel without a cause,PLATO,child
+excalibur,ARTHUR,monarch
+smoke,AUGGIE,manager
+8mm,MRS MATHEWS,housewife
+dark star,DOOLITTLE,military personnel
+bull durham,NUKE,sportsman
+from dusk till dawn,SCOTT,child
+birthday girl,JOHN,banker
+panic room,RAOUL,criminal
+metro,BAFFERT,policeman
+one flew over the cuckoo's nest,BILLY,unemployed
+rear window,JEFF,photographer
+rush hour 2,ISABELLA,special agent
+grosse pointe blank,DEBI,tv/radio presenter
+ninotchka,SWANA,monarch
+transatlantic merry-go-round,MCKINNEY,detective
+verdict,CONCANNON,lawyer
+galaxy quest,JASON,actor
+hudson hawk,MINERVA,businessperson
+halloween h20: 20 years later,JOHN,child
+monty python and the holy grail,BEDEVERE,military personnel
+heavenly creatures,JULIET,unemployed
+being there,PRESIDENT,politician
+heavenly creatures,HONORA,housewife
+duck soup,CHICO,special agent
+strange days,MAX,detective
+beavis and butt-head do america,FLEMMING,special agent
+airplane!,STRIKER,driver
+lake placid,HECTOR,professor
+jaws 2,BRODY,policeman
+ghostbusters,DANA,musician
+mission: impossible,KITTRIDGE,special agent
+election,PAUL,student
+american madness,MRS. DICKSON,housewife
+wild at heart,JOHNNIE,detective
+platoon,CHRIS,military personnel
+clerks.,JAY,criminal
+bean,ALISON,housewife
+the avengers,STEED,special agent
+jurassic park iii,PAUL,businessperson
+casablanca,STRASSER,military personnel
+hope and glory,GRACE,housewife
+lone star,OTIS,businessperson
+gladiator,COMMODUS,monarch
+erik the viking,KING ARNULF,monarch
+state and main,WALT,director
+annie hall,ALVY,actor
+lake placid,KEOUGH,policeman
+dog day afternoon,SAL,criminal
+shock treatment,JANET,musician
+simone,ELAINE,housewife
+the atomic submarine,WENDOVER,military personnel
+all about eve,BILL,director
+planet of the apes,ZAIUS,doctor
+snow falling on cedars,ISHMAEL,editor
+anastasia,VLADIMIR,criminal
+jaws 3-d,KATHRYN,scientist
+blue velvet,JEFFREY,student
+hackers,PHREAK,criminal
+aliens,NEWT,child
+serial mom,CHIP,child
+the grifters,LILLY,criminal
+batman,JOKER,criminal
+glengarry glen ross,WILLIAMSON,manager
+the fifth element,MUNRO,military personnel
+sweet smell of success,HUNSECKER,writer
+48 hrs.,GANZ,criminal
+aliens,HUDSON,military personnel
+the french connection,CHARNIER,criminal
+fantastic four,VICTOR,businessperson
+basic,DUNBAR,military personnel
+donnie darko,DONNIE,child
+the boondock saints,CONNOR,criminal
+mission: impossible ii,ETHAN,special agent
+conspiracy theory,JONAS,psychologist
+nick of time,MR. SMITH,criminal
+independence day,GENERAL GREY,military personnel
+juno,LEAH,student
+collateral,VINCENT,criminal
+entrapment,THIBADEAUX,special agent
+midnight express,BILLY,student
+jurassic park iii,GRANT,scientist
+a bucket of blood,WALTER,waiter
+man on the moon,ANDY,actor
+the shining,DANNY,child
+trainspotting,SICK BOY,criminal
+the producers,LIEBKIND,writer
+terminator 2: judgment day,SARAH,unemployed
+reservoir dogs,EDDIE,criminal
+batman,VICKI,photographer
+heathers,J.D.,student
+sister act,MOTHER SUPERIOR,priest
+smokey and the bandit,CLEDUS,driver
+simone,VIKTOR,director
+scream 3,DETECTIVE KINCAID,detective
+halloween 4: the return of michael myers,JAMIE,child
+jurassic park,GRANT,scientist
+memento,TEDDY,policeman
+rocky,PAULIE,businessperson
+8mm,MAX,salesperson
+titanic,JACK,painter
+top gun,MAVERICK,airplane pilot
+chinatown,CROSS,businessperson
+the birds,ANNIE,school teacher
+malcolm x,ARCHIE,criminal
+sling blade,LINDA,salesperson
+dark city,BUMSTEAD,policeman
+natural born killers,WAYNE,writer
+dumb and dumberer: when harry met lloyd,JESSICA,student
+beetle juice,BARBARA,housewife
+a bucket of blood,CARLA,waiter
+bones,JEREMIAH,criminal
+goodfellas,JIMMY,criminal
+plastic man,O'BRIEN,criminal
+watchmen,RORSCHACH,detective
+the man who wasn't there,FRANK,businessperson
+airplane!,ELAINE,stewardess
+dark city,SCHREBER,doctor
+solaris,KELVIN,psychologist
+g.i. jane,THE CHIEF,military personnel
+l\E9on,TONY,criminal
+blast from the past,CALVIN,scientist
+batman,KNOX,journalist
+the crying game,JUDE,military personnel
+scream 3,DEWEY,policeman
+watchmen,DR. MANHATTAN,doctor
+kids,CASPER,child
+krull,COLWYN,monarch
+hellboy,LIZ,special agent
+the butterfly effect,DR. REDFIELD,psychologist
+american pie,KEVIN,student
+panic room,SARAH,child
+sleepless in seattle,JONAH,child
+a nightmare on elm street 3: dream warriors,KRISTEN,unemployed
+mr. smith goes to washington,JEFFERSON,politician
+the man who wasn't there,DAVE,businessperson
+the french connection,RUSSO,detective
+mr. smith goes to washington,PAINE,politician
+hotel rwanda,GENERAL BIZIMUNGU,military personnel
+dumb and dumberer: when harry met lloyd,HARRY,student
+the limey,WILSON,criminal
+rebel without a cause,JIM,child
+event horizon,STARCK,military personnel
+hellraiser: hellseeker,ALLISON,doctor
+the majestic,LUKE,military personnel
+serial mom,DAD,doctor
+the godfather,HAGEN,criminal
+casino,LESTER,criminal
+godzilla,NICK,scientist
+mission: impossible,MAX,special agent
+the grapes of wrath,CASY,priest
+star trek iv: the voyage home,SCOTTY,engineer
+hellraiser iii: hell on earth,TERRI,unemployed
+scream,SIDNEY,student
+swingers,TRENT,actor
+rear window,GUNNISON,editor
+planet of the apes,CORNELIUS,scientist
+the grifters,MYRA,criminal
+philadelphia,JOE,lawyer
+the godfather,KAY,housewife
+the shining,JACK,writer
+all the president's men,ROSENFELD,journalist
+raging bull,JAKE,sportsman
+die hard,HOLLY,businessperson
+heathers,HEATHER CHANDLER,student
+back to the future,EILEEN,housewife
+jason goes to hell: the final friday,SHERIFF,policeman
+saving private ryan,JACKSON,military personnel
+domino,CLAREMONT,businessperson
+gone in sixty seconds,SWAY,criminal
+superman iv: the quest for peace,LOIS,writer
+gods and monsters,CLAY,military personnel
+the princess bride,WESTLEY,criminal
+a walk to remember,LANDON,unemployed
+the crying game,MAGUIRE,military personnel
+nashville,TOM,musician
+xxx,XANDER,sportsman
+x-men,LOGAN,unemployed
+rko 281,WELLES,director
+the world is not enough,BOND,special agent
+lone star,SAM,policeman
+the fabulous baker boys,NINA,child
+the majestic,PETE,writer
+mission: impossible,PHELPS,special agent
+nixon,NIXON,politician
+serial mom,MISTY,child
+chinatown,GITTES,detective
+aliens,RIPLEY,military personnel
+hannibal,STARLING,special agent
+the lost boys,SAM,child
+an officer and a gentleman,FOLEY,military personnel
+american madness,DICKSON,banker
+feast,BARTENDER,waiter
+planet of the apes,ZIRA,scientist
+out of sight,GLENN,criminal
+the anniversary party,SALLY,actor
+the hudsucker proxy,NORVILLE,clerk
+dave,DUANE,special agent
+the matrix,TANK,military personnel
+dave,DAVE,manager
+the x files,SCULLY,special agent
+unforgiven,NED,criminal
+the man in the iron mask,LOUIS,monarch
+a clockwork orange,ALEX,criminal
+taking sides,RODE,musician
+trainspotting,BEGBIE,criminal
+big fish,EDWARD,salesperson
+fletch,FLETCH,writer
+the sting,HOOKER,criminal
+jaws 2,ANDY,student
+dr. strangelove or: how i learned to stop worrying and love the bomb,MAJOR KONG,military personnel
+sideways,JACK,actor
+dumb and dumberer: when harry met lloyd,PRINCIPAL COLLINS,school teacher
+bound,JOHNNIE,criminal
+the birds,CATHY,child
+hellraiser,KIRSTY,child
+amadeus,SALIERI,musician
+star trek v: the final frontier,SPOCK,scientist
+air force one,ALICE,child
+ghostbusters,SPENGLER,scientist
+the third man,CALLOWAY,policeman
+pet sematary,ELLIE,child
+the crying game,JODY,military personnel
+star trek: generations,RIKER,military personnel
+sister act,MARY PATRICK,priest
+mission: impossible ii,NYAH,criminal
+mumford,LILY,waiter
+g.i. jane,ROYCE,military personnel
+star trek vi: the undiscovered country,CHANG,military personnel
+human nature,PUFF,unemployed
+romeo and juliet,JULIET,child
+strange days,MACE,driver
+the seventh victim,JASON,writer
+star trek: first contact,WORF,military personnel
+being there,EVE,housewife
+hope and glory,CLIVE,military personnel
+airplane!,DR. RUMACK,doctor
+harold and maude,UNCLE VICTOR,military personnel
+mystery of the wax museum,EDITOR,editor
+the limey,VALENTINE,musician
+gattaca,INVESTIGATOR,detective
+i still know what you did last summer,JULIE,student
+traffic,HELENA,housewife
+rko 281,HEARST,businessperson
+the getaway,DOC,criminal
+bottle rocket,DIGNAN,criminal
+misery,SINDELL,manager
+the seventh victim,GREGORY,lawyer
+stalag 17,SEFTON,military personnel
+barton fink,AUDREY,assistant
+fast times at ridgemont high,STACY,waiter
+love & basketball,CAMILLE,housewife
+beetle juice,CHARLES,businessperson
+indiana jones and the temple of doom,INDIANA,professor
+pitch black,JOHNS,policeman
+the english patient,CARAVAGGIO,special agent
+batman returns,BRUCE,businessperson
+the hudsucker proxy,AMY,journalist
+monty python and the holy grail,LAUNCELOT,military personnel
+stepmom,LUKE,lawyer
+barton fink,MASTRIONOTTI,detective
+gone in sixty seconds,KIP,criminal
+jaws 2,MIKE,student
+day of the dead,RHODES,military personnel
+as good as it gets,SIMON,painter
+star trek iv: the voyage home,GILLIAN,doctor
+godzilla,ANIMAL,photographer
+men in black,JAY,special agent
+the adventures of ford fairlane,JAZZ,assistant
+basic,OSBORNE,detective
+mrs brown,VICTORIA,monarch
+thelma & louise,LOUISE,waiter
+romeo and juliet,ROMEO,child
+jfk,LIZ,housewife
+a hard day's night,PAUL,musician
+tron,DILLINGER,businessperson
+leviathan,DOC,doctor
+lost in translation,CHARLOTTE,student
+an american werewolf in london,JACK,student
+frequency,SATCH,policeman
+get shorty,HARRY,director
+escape from l.a.,MAP TO THE STARS EDDIE,criminal
+superman ii,CLARK,journalist
+starship troopers,RASCZAK,military personnel
+barry lyndon,CAPTAIN GROGAN,military personnel
+the seventh victim,JUDD,doctor
+memento,LEONARD,clerk
+an american werewolf in london,DR. HIRSCH,doctor
+the grapes of wrath,TOM,unemployed
+jurassic park,MALCOLM,scientist
+the elephant man,MOTHERSHEAD,nurse
+young frankenstein,MONSTER,unemployed
+basic instinct,CATHERINE,writer
+as good as it gets,MELVIN,writer
+toy story,MR. POTATO HEAD,unemployed
+mr. deeds goes to town,COBB,journalist
+marty,CLARA,school teacher
+psycho,ARBOGAST,detective
+manhunter,LECKTOR,criminal
+braveheart,WILLIAM,military personnel
+the fabulous baker boys,SUSIE,musician
+dumb and dumberer: when harry met lloyd,LLOYD,student
+predator,SCHAEFER,military personnel
+jaws: the revenge,ELLEN,housewife
+dead poets society,KEATING,school teacher
+jacob's ladder,PAUL,military personnel
+from dusk till dawn,JACOB,priest
+hudson hawk,HAWK,criminal
+nick of time,MS. JONES,criminal
+point break,UTAH,special agent
+ghostbusters,VENKMAN,scientist
+pretty woman,STUCKEY,lawyer
+the truman show,TRUMAN,businessperson
+apocalypse now,WILLARD,military personnel
+good will hunting,SKYLAR,student
+my girl,VADA,child
+magnolia,FRANK,activist
+hotel rwanda,PAUL,manager
+galaxy quest,ALEXANDER,actor
+smokey and the bandit,BANDIT,driver
+the sting,GONDORFF,criminal
+meet john doe,D. B.,editor
+krull,LYSSA,monarch
+star trek: the motion picture,SPOCK,astronaut
+buffy the vampire slayer,NICOLE,unemployed
+the lost son,LOMBARD,detective
+charade,BARTHOLOMEW,special agent
+the graduate,MRS. BRADDOCK,housewife
+8mm,WELLES,detective
+scary movie 2,BUDDY,student
+stepmom,ANNABELLE,child
+verdict,MICKEY,school teacher
+scream,STU,student
+sunset blvd.,BETTY,assistant
+braveheart,WALLACE,military personnel
+fantastic voyage,CORA,assistant
+twin peaks: fire walk with me,LAURA,student
+i still know what you did last summer,TYRELL,student
+traffic,CAROLINE,student
+halloween 4: the return of michael myers,MEEKER,policeman
+rambo: first blood part ii,TRAUTMAN,military personnel
+house of 1000 corpses,MARY,writer
+terminator 2: judgment day,TERMINATOR,military personnel
+metro,MCCALL,policeman
+scream 2,DEWEY,policeman
+amadeus,SCHIKANEDER,businessperson
+buffy the vampire slayer,KIMBERLY,unemployed
+watchmen,VEIDT,businessperson
+goodfellas,VARIO,criminal
+confidence,JAKE,criminal
+rambo: first blood part ii,BREWER,military personnel
+the mummy,JONATHAN,criminal
+the salton sea,GARCETTI,policeman
+croupier,JANI,criminal
+rear window,LISA,unemployed
+runaway bride,FISHER,manager
+starship troopers,DIZZY,military personnel
+swingers,MIKE,actor
+superman ii,LOIS,journalist
+a nightmare on elm street: the dream child,YVONNE,nurse
+the horse whisperer,ANNIE,editor
+the lost world: jurassic park,NICK,activist
+x-men,XAVIER,professor
+dead poets society,TODD,student
+jennifer eight,HELENA,student
+the ice storm,JANEY,housewife
+the abyss,LINDSEY,doctor
+antitrust,GARY,businessperson
+hackers,CEREAL,criminal
+american pie,OZ,student
+never been kissed,SAM,school teacher
+bloodmoon,DETECTIVE WILLIAMS,detective
+contact,DRUMLIN,scientist
+cool hand luke,LUKE,criminal
+hackers,PLAGUE,policeman
+u-turn,SHERIFF,policeman
+mr. smith goes to washington,DIZ,writer
+big fish,JOSEPHINE,housewife
+a clockwork orange,MINISTER,priest
+a nightmare on elm street 3: dream warriors,NEIL,doctor
+charade,ADAM,criminal
+being there,RAND,businessperson
+the silence of the lambs,CLARICE,special agent
+the ghost and the darkness,PATTERSON,military personnel
+insomnia,ELLIE,detective
+beavis and butt-head do america,BORK,special agent
+scary movie 2,CINDY,student
+nixon,PAT,housewife
+natural born killers,MICKEY,criminal
+the exorcist,REGAN,child
+amadeus,JOSEPH,monarch
+cherry falls,KENNY,child
+who framed roger rabbit,DOLORES,waiter
+romeo and juliet,NURSE,nurse
+black snake moan,RONNIE,military personnel
+halloween,LAURIE,student
+get shorty,MARTIN,actor
+nothing but a man,JOSIE,school teacher
+all the president's men,SLOAN,politician
+brazil,KURTZMAN,manager
+rambo: first blood part ii,KIRKHILL,special agent
+sleepless in seattle,ANNIE,writer
+15 minutes,OLEG,criminal
+chill factor,LONG,doctor
+from dusk till dawn,KATE,child
+american psycho,PRICE,banker
+the insider,WIGAND,scientist
+star trek vi: the undiscovered country,SPOCK,astronaut
+spare me,THEO,sportsman
+airplane ii: the sequel,TED,airplane pilot
+rambo: first blood part ii,RAMBO,military personnel
+1492: conquest of paradise,MARCHENA,priest
+48 hrs.,LUTHER,criminal
+fantastic four,BEN,astronaut
+aliens,BURKE,businessperson
+die hard,HANS,criminal
+hostage,TALLEY,policeman
+twelve monkeys,RAILLY,psychologist
+air force one,MARSHALL,politician
+face/off,ARCHER,special agent
+fantastic four,JOHNNY,astronaut
+halloween,TOMMY,child
+the sweet hereafter,DOLORES,driver
+the fifth element,ZORG,businessperson
+interview with the vampire: the vampire chronicles,MALLOY,writer
+reindeer games,ASHLEY,criminal
+american outlaws,COLE,criminal
+witness,BOOK,detective
+pleasantville,MR. JOHNSON,businessperson
+the man who wasn't there,CREIGHTON,businessperson
+high fidelity,BARRY,assistant
+rambling rose,BUDDY,child
+austin powers: international man of mystery,SCOTT EVIL,criminal
+george washington,WASHINGTON,child
+the bourne supremacy,BOURNE,special agent
+braveheart,PRINCESS,monarch
+ronin,DEIRDRE,special agent
+memento,NATALIE,waiter
+say anything...,COREY,musician
+superman,CLARK,journalist
+star trek: first contact,PICARD,astronaut
+the godfather,MICHAEL,criminal
+the verdict,CONCANNON,lawyer
+witness,SCHAEFFER,policeman
+the producers,BLOOM,banker
+final destination,CLEAR,student
+casablanca,RICK,businessperson
+toy story,MRS. DAVIS,housewife
+never been kissed,GUS,editor
+thelma & louise,J.D.,unemployed
+star trek: first contact,DATA,scientist
+the x files,MULDER,special agent
+the exorcist,MERRIN,priest
+love & basketball,MONICA,sportsman
+the boondock saints,SMECKER,special agent
+intolerable cruelty,MARYLIN,housewife
+basquiat,ANDY WARHOL,painter
+mr. deeds goes to town,CEDAR,lawyer
+cruel intentions,SEBASTIAN,student
+casino,GINGER,housewife
+the family man,JACK,banker
+top gun,VIPER,military personnel
+signs,GRAHAM,priest
+american pie,HEATHER,student
+wall street,BUD,banker
+x-men,MAGNETO,criminal
+insomnia,WALTER,writer
+fantastic voyage,DUVAL,doctor
+assassins,BAIN,criminal
+the lost world: jurassic park,ROLAND,explorer
+barton fink,BARTON,writer
+crime spree,MARCEL,criminal
+the shining,WENDY,housewife
+tremors,RHONDA,student
+smoke,PAUL,writer
+verdict,GALVIN,lawyer
+someone to watch over me,ELLIE,housewife
+citizen kane,KANE,businessperson
+mash,HAWKEYE,doctor
+buffy the vampire slayer,BUFFY,unemployed
+face/off,CASTOR,criminal
+fletch,MRS. STANWYK,housewife
+croupier,JACK,writer
+the game,FEINGOLD,actor
+the game,CHRISTINE,waiter
+l\E9on,MATHILDA,child
+bound,CAESAR,criminal
+kids,DARCY,child
+the thing,BLAIR,scientist
+batman and robin,BRUCE,businessperson
+get shorty,CHILI,businessperson
+batman,BRUCE,businessperson
+twin peaks: fire walk with me,DESMOND,special agent
+jaws,ELLEN,housewife
+fletch,WALKER,editor
+the godfather: part ii,KAY,housewife
+rocky,APOLLO,sportsman
+tombstone,MORGAN,policeman
+his girl friday,MAYOR,politician
+mission: impossible ii,AMBROSE,special agent
+nuovo cinema paradiso,SALVATORE,director
+meet john doe,CONNELL,editor
+independence day,DAVID,scientist
+three kings,JAEGER,military personnel
+the truman show,INTERVIEWER,tv/radio presenter
+lake placid,KELLY,scientist
+pearl harbor,RAFE,military personnel
+point break,PAPPAS,special agent
+taking sides,DAVID,military personnel
+magnolia,JIMMY,tv/radio presenter
+a nightmare on elm street part 2: freddy's revenge,JESSE,student
+copycat,M.J.,detective
+storytelling,VI,student
+jackie brown,MELANIE,unemployed
+the bourne supremacy,ABBOTT,special agent
+the thin man,NORA,housewife
+juno,VANESSA,housewife
+lost in translation,BOB,actor
+cast away,STAN,airplane pilot
+batman returns,PENGUIN,politician
+insomnia,WILL,detective
+miami vice,TUBBS,detective
+thelma & louise,HAL,detective
+tomorrow never dies,M,special agent
+basquiat,BASQUIAT,painter
+sweet smell of success,SIDNEY,manager
+lost in translation,JOHN,photographer
+the apartment,DR. DREYFUSS,doctor
+halloween,LYNDA,student
+my girl 2,VADA,child
+sleepless in seattle,BECKY,editor
+the godfather: part ii,MICHAEL,criminal
+2001: a space odyssey,BOWMAN,scientist
+star trek: nemesis,RIKER,military personnel
+the sting,TWIST,criminal
+jaws: the revenge,JAKE,scientist
+stalag 17,SCHULTZ,military personnel
+the bourne supremacy,NICKY,engineer
+the sixth sense,COLE,child
+starship troopers,ZANDER,military personnel
+cherry falls,JODY,child
+hope and glory,BILL,child
+the grifters,ROY,criminal
+the messenger,CHARLES,monarch
+the ploughman's lunch,JEREMY,journalist
+dog day afternoon,SONNY,criminal
+blast from the past,ADAM,unemployed
+the truman show,MERYL,nurse
+event horizon,SMITH,airplane pilot
+the godfather,DON CORLEONE,criminal
+wild wild west,JIM,military personnel
+the game,NICHOLAS,banker
+thelma & louise,JIMMY,musician
+highlander,BRENNA,doctor
+birthday girl,NADIA,criminal
+the elephant man,TREVES,doctor
+being john malkovich,LESTER,doctor
+miami vice,FUJIMA,special agent
+jaws,BRODY,policeman
+strange days,LENNY,criminal
+high fidelity,DICK,assistant
+anastasia,DMITRI,criminal
+kalifornia,EARLY,criminal
+the jacket,STARKS,military personnel
+the ploughman's lunch,SUSAN,journalist
+silverado,SHERIFF COBB,policeman
+bringing out the dead,FRANK,doctor
+blow,GEORGE,criminal
+hostage,DENNIS,criminal
+true romance,DICK,actor
+an american werewolf in london,ALEX,nurse
+day of the dead,SARAH,doctor
+braveheart,EDWARD,monarch
+the anniversary party,PANES,musician
+the boondock saints,ROCCO,criminal
+a nightmare on elm street,NANCY,child
+ghostbusters ii,VENKMAN,psychologist
+dark star,PINBACK,military personnel
+fast times at ridgemont high,SPICOLI,unemployed
+batman returns,CATWOMAN,criminal
+citizen kane,SUSAN,musician
+rko 281,MARION,actor
+batman returns,SELINA,assistant
+contact,ELLIE,scientist
+the crying game,FERGUS,military personnel
+escape from l.a.,MALLOY,military personnel
+alien,STANDARD,astronaut
+being john malkovich,LOTTE,housewife
+galaxy quest,GWEN,actor
+final destination,CARTER,student
+simone,LAINEY,child
+true romance,CLARENCE,assistant
+sounder,DAVID LEE,child
+the birds,MITCH,lawyer
+jaws: the revenge,MICHAEL,scientist
+grand hotel,PREYSING,businessperson
+supergirl,LUCY,student
+jfk,FERRIE,airplane pilot
+superman iv: the quest for peace,LACY,editor
+the curse of the cat people,AMY,child
+king kong,ANN,actor
+lost highway,FRED,musician
+true believer,EDDIE,lawyer
+1492: conquest of paradise,COLUMBUS,explorer
+mulholland dr.,ADAM,director
+i still know what you did last summer,WILL,student
+copycat,RUBEN,detective
+some like it hot,JERRY,musician
+scream 2,GALE,tv/radio presenter
+terminator 2: judgment day,JOHN,child
+a nightmare on elm street,GLEN,child
+excalibur,LANCELOT,military personnel
+last of the mohicans,HAWKEYE,military personnel
+halloween,ANNIE,student
+some like it hot,SPATS,criminal
+get carter,CARTER,criminal
+the verdict,DR. THOMPSON,doctor
+alien,ROBY,astronaut
+american outlaws,JESSE,criminal
+bamboozled,SLOAN,assistant
+sling blade,DOYLE,musician
+my best friend's wedding,MICHAEL,writer
+lost horizon,LOVETT,scientist
+good will hunting,SEAN,professor
+stalag 17,STOSH,military personnel
+pitch black,IMAM,priest
+total recall,COHAAGEN,politician
+heathers,HEATHER DUKE,student
+ronin,LARRY,military personnel
+black snake moan,R.L.,priest
+storytelling,SCOOBY,child
+mobsters,LANSKY,criminal
+star trek: nemesis,DATA,scientist
+dead poets society,KNOX,student
+smokin' aces,MESSNER,special agent
+platoon,ELIAS,military personnel
+the patriot,GABRIEL,military personnel
+slither,BILL,policeman
+48 hrs.,HAMMOND,criminal
+no country for old men,CHIGURH,criminal
+batman forever,EDWARD,scientist
+confidence,GORDO,criminal
+election,JIM,school teacher
+dog day afternoon,MORETTI,policeman
+orgy of the dead,BOB,writer
+legally blonde,EMMETT,lawyer
+american madness,MATT,banker
+ronin,SAM,military personnel
+lord of illusions,BUTTERFIELD,assistant
+glengarry glen ross,LEVENE,salesperson
+reindeer games,RUDY,criminal
+being john malkovich,MAXINE,clerk
+l.a. confidential,BUD,policeman
+dr. strangelove or: how i learned to stop worrying and love the bomb,MAJOR MANDRAKE,military personnel
+fear and loathing in las vegas,DUKE,writer
+silverado,STELLA,manager
+the verdict,MICKEY,school teacher
+true lies,SIMON,salesperson
+casino,MARINO,criminal
+mystery of the wax museum,WINTON,businessperson
+it's a wonderful life,GEORGE,banker
+memento,BURT,clerk
+15 minutes,EDDIE,detective
+jaws 2,ELLEN,housewife
+the salton sea,DANNY,criminal
+bean,GRIERSON,businessperson
+get shorty,BO CATLETT,criminal
+lord of illusions,VALENTIN,assistant
+indiana jones and the last crusade,DONOVAN,businessperson
+birthday girl,ALEXEI,criminal
+american psycho,BATEMAN,banker
+the fifth element,KORBEN,driver
+lone star,PILAR,school teacher
+harold and maude,PSYCHIATRIST,doctor
+total recall,QUAID,special agent
+sphere,NORMAN,psychologist
+hannah and her sisters,MICKEY,writer
+l.a. confidential,EXLEY,detective
+the cider house rules,WALLY,airplane pilot
+gladiator,LUCILLA,housewife
+pet sematary ii,DREW,child
+ghostbusters,STANTZ,scientist
+fantastic voyage,GRANT,special agent
+mystery of the wax museum,FLORENCE,writer
+man on fire,LISA,housewife
+pretty woman,EDWARD,businessperson
+who framed roger rabbit,VALIANT,detective
+blast from the past,HELEN,housewife
+american pie,JIM,student
+the devil and daniel webster,WEBSTER,politician
+star trek: nemesis,GEORDI,engineer
+the godfather,SONNY,criminal
+the ploughman's lunch,ANN,scientist
+the woodsman,LUCAS,policeman
+alien,HUNTER,engineer
+tron,FLYNN,engineer
+star trek iv: the voyage home,BONES,doctor
+rocky,ADRIAN,salesperson
+leviathan,BECK,scientist
+aliens,GORMAN,military personnel
+agnes of god,MOTHER MIRIAM,priest
+ghost world,ROBERTA,school teacher
+the english patient,HANA,nurse
+knight moves,KATHY,psychologist
+the anniversary party,JERRY,manager
+smoke,RASHID,unemployed
+made,MAX,criminal
+basic instinct,LT. WALKER,policeman
+jurassic park,HAMMOND,businessperson
+the big lebowski,DUDE,unemployed
+the matrix,MORPHEUS,military personnel
+bringing out the dead,LARRY,doctor
+verdict,DR. THOMPSON,doctor
+copycat,ANDY,assistant
+insomnia,FRED,detective
+a hard day's night,JOHN,musician
+blow,BARBARA,stewardess
+trouble in paradise,LILY,criminal
+traffic,JAVIER,policeman
+bamboozled,DELACROIX,tv/radio presenter
+mulholland dr.,BETTY,actor
+out of sight,MAURICE,criminal
+house on haunted hill,SARA,unemployed
+cast away,CHUCK,airplane pilot
+who framed roger rabbit,ROGER RABBIT,actor
+good will hunting,LAMBEAU,professor
+all about eve,KAREN,housewife
+grosse pointe blank,MARCELLA,assistant
+hudson hawk,ANNA,special agent
+men in black,ZED,special agent
+the wizard of oz,DOROTHY,child
+the princess bride,MAN IN BLACK,criminal
+toy story,ANDY,child
+magnolia,PHIL,nurse
+taxi driver,BETSY,activist
+copycat,HELEN,psychologist
+the usual suspects,KEATON,criminal
+the matrix,TRINITY,military personnel
+the cell,MIRIAM,doctor
+hannibal,VERGER,businessperson
+casablanca,LASZLO,activist
+the fabulous baker boys,JACK,musician
+all the president's men,WOODWARD,journalist
+mobsters,LUCIANO,criminal
+eternal sunshine of the spotless mind,MIERZWIAK,doctor
+frankenstein,HENRY,scientist
+halloween h20: 20 years later,MOLLY,child
+final destination 2,THOMAS,policeman
+reindeer games,GABRIEL,criminal
+snow falling on cedars,HOOKS,lawyer
+miami vice,CROCKETT,detective
+superman ii,LUTHOR,criminal
+erin brockovich,ED,lawyer
+star trek vi: the undiscovered country,LT. SAAVIK,military personnel
+three kings,WES,military personnel
+life as a house,SAM,student
+knight moves,ANDY,detective
+american outlaws,ZEE,criminal
+never been kissed,JOSIE,editor
+brazil,SAM,clerk
+birthday girl,YURI,criminal
+reindeer games,NICK,criminal
+it happened one night,ELLIE,monarch
+shallow grave,DAVID,clerk
+dr. strangelove or: how i learned to stop worrying and love the bomb,PRESIDENT MUFFLEY,politician
+ronin,VINCENT,military personnel
+being there,ALLENBY,doctor
+the talented mr. ripley,RIPLEY,criminal
+casino,ACE,businessperson
+scream 3,GALE,tv/radio presenter
+an american werewolf in london,DAVID,student
+citizen kane,BERNSTEIN,manager
+jennifer eight,CITRINE,policeman
+starship troopers,JOHNNY,military personnel
+antz,FORMICA,military personnel
+unforgiven,WW,writer
+jackie brown,ORDELL,criminal
+the third man,MARTINS,writer
+the adventures of ford fairlane,GRENDEL,businessperson
+confidence,LILY,criminal
+true believer,ROGER,clerk
+serial mom,MOM,housewife
+superman iii,ROSS,businessperson
+halloween: the curse of michael myers,LOOMIS,doctor
+beavis and butt-head do america,BEAVIS,child
+manhunter,DOLLARHYDE,criminal
+the big lebowski,MAUDE,painter
+house on haunted hill,PRITCHETT,businessperson
+misery,BUSTER,policeman
+blow,DIEGO,criminal
+broadcast news,AARON,writer
+star trek: first contact,RIKER,astronaut
+my girl,THOMAS J,child
+no country for old men,CARLA JEAN,housewife
+what lies beneath,DR. DRAYTON,psychologist
+neuromancer,ARMITAGE,military personnel
+barton fink,LIPNIK,director
+twelve monkeys,COLE,criminal
+apocalypse now,KILGORE,military personnel
+saving private ryan,MILLER,military personnel
+malcolm x,MALCOLM,activist
+the godfather: part ii,FREDO,criminal
+jaws 2,HENDRICKS,policeman
+the elephant man,CARR,manager
+the night of the hunter,PREACHER,priest
+taking sides,FURTW\C4NGLER,musician
+the day the earth stood still,BOBBY,child
+the relic,FROCK,doctor
+indiana jones and the last crusade,ELSA,scientist
+scream 2,HALLIE,student
+crime spree,ZAMMITO,criminal
+fantastic four,SUE,scientist
+barton fink,CHARLIE,salesperson
+g.i. jane,DEHAVEN,politician
+spare me,KASTLE,criminal
+conspiracy theory,LOWRY,special agent
+a nightmare on elm street 3: dream warriors,NANCY,psychologist
+kids,JENNIE,child
+someone to watch over me,MIKE,detective
+the crow: salvation,CAPTAIN,policeman
+goodfellas,KAREN,housewife
+fear and loathing in las vegas,GONZO,lawyer
+jackie brown,JACKIE,stewardess
+jfk,JIM,lawyer
+sister act,EDDIE,policeman
+cliffhanger,TRAVERS,special agent
+the grifters,BOBO,banker
+lost highway,MR. EDDY,director
+jurassic park,TIM,child
+spider-man,PETER,photographer
+jennifer eight,BERLIN,policeman
+the boondock saints,PRIEST,priest
+back to the future,MARTY,student
+lone star,HOLLIS,politician
+nashville,LINNEA,musician
+planet of the apes,PRESIDENT,politician
+starman,MAJOR BELL,military personnel
+invaders from mars,JIMMY,child
+event horizon,PETERS,doctor
+reservoir dogs,MR. PINK,criminal
+star trek vi: the undiscovered country,BONES,doctor
+love & basketball,QUINCY,sportsman
+suburbia,JEFF,unemployed
+rko 281,SCHAEFER,businessperson
+little nicky,VALERIE,student
+invaders from mars,DAD,scientist
+platoon,RHAH,military personnel
+napoleon,JOSEPHINE,monarch
+monkeybone,JULIE,doctor
+batman forever,TWO-FACE,lawyer
+frances,HARRY,activist
+titanic,CAL,businessperson
+hotel rwanda,COLONEL OLIVER,military personnel
+2001: a space odyssey,POOLE,scientist
+trainspotting,SPUD,criminal
+ghostbusters ii,STANTZ,scientist
+the world is not enough,CHRISTMAS,scientist
+austin powers: international man of mystery,BASIL EXPOSITION,special agent
+the limey,STACY,criminal
+five easy pieces,CATHERINE,musician
+legally blonde,ELLE,student
+wonder boys,JAMES LEER,student
+the sweet hereafter,NICOLE,child
+hudson hawk,KAPLAN,special agent
+the patriot,CORNWALLIS,military personnel
+kids,TELLY,child
+king kong,DENHAM,director
+virtuosity,PARKER,policeman
+the piano,FLORA,child
+manhunter,CRAWFORD,special agent
+the messenger,CAUCHON,priest
+all about eve,MARGO,actor
+the ghost and the darkness,BEAUMONT,businessperson
+reservoir dogs,FREDDY,criminal
+indiana jones and the last crusade,HENRY,professor
+pirates of the caribbean,NORRINGTON,military personnel
+the searchers,ETHAN,military personnel
+fantastic voyage,MICHAELS,doctor
+rush hour,RUSS,special agent
+shallow grave,MCCALL,detective
+pirates of the caribbean,BARBOSSA,criminal
+fargo,CARL,criminal
+misery,PAUL,writer
+the x files,KURTZWEIL,doctor
+jerry maguire,DOROTHY,housewife
+chill factor,BRYNNER,military personnel
+the pianist,SZPILMAN,musician
+confidence,MILES,criminal
+nurse betty,CHARLIE,criminal
+a hard day's night,NORM,manager
+gattaca,DETECTIVE HUGO,detective
+the pianist,DOROTA,musician
+unbreakable,ELIJAH,businessperson
+legally blonde,WARNER,student
+american outlaws,BOB,criminal
+the butterfly effect,EVAN,student
+mimic,SUSAN,scientist
+out of sight,BUDDY,criminal
+g.i. jane,JORDAN,military personnel
+jaws,VAUGHN,politician
+sphere,TED,scientist
+the mummy,O'CONNELL,explorer
+blue velvet,DOROTHY,musician
+snow falling on cedars,MORAN,policeman
+star trek: insurrection,DATA,military personnel
+dead poets society,CHARLIE,student
+misery,ANNIE,nurse
+mrs brown,PONSONBY,assistant
+the man who wasn't there,BIRDY,musician
+trouble in paradise,GASTON,criminal
+the patriot,LEE,military personnel
+nashville,TRIPLETTE,politician
+ticker,GLASS,policeman
+15 minutes,JORDY,detective
+twin peaks: fire walk with me,LELAND,lawyer
+apocalypse now,CHIEF,military personnel
+minority report,IRIS,scientist
+the sting,LONNEGAN,criminal
+tombstone,WYATT,policeman
+copycat,QUINN,policeman
+gattaca,JEROME,sportsman
+the princess bride,FEZZIK,sportsman
+star trek: insurrection,PICARD,astronaut
+jason lives: friday the 13th part vi,SHERIFF,policeman
+mumford,MUMFORD,doctor
+bull durham,CRASH,sportsman
+star trek iii: the search for spock,KRUGE,astronaut
+die hard,POWELL,policeman
+king kong,JACK,writer
+the horse whisperer,GRACE,child
+pet sematary,RACHEL,housewife
+indiana jones and the temple of doom,SHORT ROUND,child
+who framed roger rabbit,DOOM,criminal
+beavis and butt-head do america,BUTT-HEAD,child
+the relic,D'AGOSTA,detective
+braveheart,HAMISH,military personnel
+get shorty,KAREN,actor
+smokin' aces,SYKES,criminal
+my best friend's wedding,KIMMY,student
+the silence of the lambs,CRAWFORD,special agent
+hannibal,FELL,professor
+kramer vs. kramer,TED,businessperson
+goodfellas,HENRY,criminal
+quills,COULMIER,priest
+hackers,DADE,criminal
+superman,LUTHOR,businessperson
+beetle juice,LYDIA,photographer
+basic,STYLES,military personnel
+the third man,ANNA,actor
+wild at heart,SAILOR,criminal
+blade runner,DECKARD,policeman
+young frankenstein,FREDDY,doctor
+basquiat,GINA,painter
+friday the 13th part viii: jason takes manhattan,MCCULLOCH,school teacher
+indiana jones and the temple of doom,CHATTAR LAL,politician
+cruel intentions,KATHRYN,student
+intolerable cruelty,MILES,lawyer
+nick of time,ELEANOR GRANT,politician
+natural born killers,WURLITZER,policeman
+his girl friday,BURNS,editor
+the princess bride,INIGO,sportsman
+kundun,TENZIN GYATSO,priest
+pet sematary,LOUIS,doctor
+bean,DAVID,manager
+shock treatment,NATION,doctor
+what lies beneath,NORMAN,scientist
+manhunter,GRAHAM,special agent
+krull,TORQUIL,criminal
+reservoir dogs,MR. WHITE,criminal
+batman and robin,IVY,scientist
+silver bullet,MARTY,child
+cruel intentions,CECILE,student
+bringing out the dead,MARCUS,doctor
+raging bull,VICKIE,child
+shakespeare in love,FENNYMAN,banker
+vertigo,MADELEINE,housewife
+sphere,HARRY,scientist
+as good as it gets,CAROL,waiter
+pleasantville,JENNIFER,student
+bachelor party,RICK,driver
+thirteen days,BOBBY,politician
+rambling rose,MOTHER,student
+the silence of the lambs,DR. LECTER,psychologist
+the fisher king,JACK,tv/radio presenter
+next friday,UNCLE ELROY,unemployed
+pleasantville,BETTY,housewife
+one flew over the cuckoo's nest,HARDING,unemployed
+buffy the vampire slayer,PIKE,unemployed
+dave,BOB,politician
+schindler's list,GOETH,military personnel
+independence day,STEVE,military personnel
+hostage,JENNIFER,child
+star trek iii: the search for spock,SAAVIK,military personnel
+the terminator,REESE,military personnel
+starship troopers,CARMEN,military personnel
+signs,MERRILL,sportsman
+a clockwork orange,CHIEF GUARD,military personnel
+pearl harbor,EVELYN,nurse
+scream 2,SIDNEY,student
+top gun,GOOSE,airplane pilot
+panther,HUEY,activist
+the hustler,SARAH,student
+spare me,BUZZ,sportsman
+the bourne identity,BOURNE,special agent
+donnie darko,DR. THURMAN,psychologist
+the majestic,LEO,lawyer
+shallow grave,JULIET,doctor
+the verdict,GALVIN,lawyer
+the usual suspects,VERBAL,criminal
+domino,ED,criminal
+saving private ryan,UPHAM,military personnel
+it happened one night,PETER,journalist
+mr. smith goes to washington,HUBERT,politician
+godzilla,MAJOR HICKS,military personnel
+shakespeare in love,WILL,writer
+stepmom,BEN,child
+from dusk till dawn,RICHARD,criminal
+lord of illusions,HARRY,detective
+minority report,LARA,housewife
+shakespeare in love,HENSLOWE,businessperson
+philadelphia,BELINDA,lawyer
+the apartment,KIRKEBY,manager
+indiana jones and the last crusade,INDY,explorer
+superman,LOIS,journalist
+the salton sea,JIMMY,criminal
+batman forever,BRUCE,businessperson
+kramer vs. kramer,BILLY,child
+the adventures of buckaroo banzai across the 8th dimension,BUCKAROO BANZAI,scientist
+beetle juice,ADAM,unemployed
+starman,SHERMIN,scientist
+scary movie 2,RAY,student
+what lies beneath,CLAIRE,housewife
+napoleon,NAPOLEON,monarch
+halloween iii: season of the witch,MICHAEL,criminal
+it happened one night,GORDON,editor
+the jacket,LORENSON,doctor
+jacob's ladder,MICHAEL,military personnel
+willow,MADMARTIGAN,military personnel
+all the president's men,BERNSTEIN,journalist
+mimic,LEONARD,policeman
+human nature,GABRIELLE,assistant
+bound,VIOLET,criminal
+the adventures of ford fairlane,FORD,detective
+assassins,ELECTRA,criminal
+runaway bride,IKE,writer
+the graduate,ELAINE,student
+the anniversary party,JOE,writer
+jerry maguire,JERRY,salesperson
+xxx,GIBBONS,special agent
+15 minutes,EMIL,criminal
+the jacket,JACKIE,child
+barry lyndon,COUNTESS,housewife
+the crow,ERIC,musician
+frankenstein,CREATURE,unemployed
+saving private ryan,REIBEN,military personnel
+i walked with a zombie,MRS. RAND,doctor
+l.a. confidential,DUDLEY,policeman
+suspect zero,MACKELWAY,special agent
+star trek: the wrath of khan,SAAVIK,astronaut
+edtv,CYNTHIA,director
+the rocky horror picture show,FRANK,doctor
+platoon,KING,military personnel
+jaws,HOOPER,scientist
+the nightmare before christmas,EVIL SCIENTIST,scientist
+the haunting,MARROW,doctor
+the usual suspects,KUJAN,special agent
+jacob's ladder,LOUIS,doctor
+nurse betty,ROY,writer
+being john malkovich,MALKOVICH,actor
+strange days,FAITH,musician
+anastasia,ANYA,unemployed
+an american werewolf in paris,LEDUC,detective
+virtuosity,SID 6.7,criminal
+i still know what you did last summer,KARLA,student
+star trek: the wrath of khan,KIRK,astronaut
+galaxy quest,TOMMY,actor
+life as a house,ALYSSA,student
+the searchers,CLAYTON,military personnel
+man on fire,CREASY,special agent
+grand hotel,KRINGELEIN,assistant
+highlander,MORAN,policeman
+dr. strangelove or: how i learned to stop worrying and love the bomb,LT. ZOGG,military personnel
+juno,JUNO,student
+final destination 2,KIMBERLY,student
+g.i. jane,C.O.,military personnel
+wild things,GLORIA,detective
+say anything...,DIANE,student
+agnes of god,AGNES,priest
+jacob's ladder,JACOB,military personnel
+house on haunted hill,PRICE,businessperson
+meet john doe,ANN,writer
+rush hour,LEE,detective
+star trek: insurrection,DOUGHERTY,military personnel
+8mm,MRS CHRISTIAN,housewife
+roughshod,LEDNOV,criminal
+the graduate,MRS. ROBINSON,housewife
+monty python and the holy grail,GALAHAD,military personnel
+the patriot,MARION,military personnel
+mimic,PETER,doctor
+trouble in paradise,GIRON,manager
+a walk to remember,JAMIE,unemployed
+out of sight,KAREN,policeman
+reservoir dogs,JOE,criminal
+ghostbusters ii,DANA,musician
+meet john doe,JOHN,unemployed
+heathers,VERONICA,student
+unforgiven,THE KID,criminal
+the getaway,RUDY,criminal
+superman ii,ZOD,military personnel
+no country for old men,BELL,policeman
+fight club,JACK,businessperson
+rear window,STELLA,nurse
+hostage,THOMAS,child
+suspect zero,KULOK,special agent
+game 6,NICKY,writer
+stepmom,JACKIE,housewife
+human nature,NATHAN,psychologist
+unforgiven,LITTLE BILL,policeman
+being john malkovich,CRAIG,clerk
+domino,DOMINO,criminal
+air force one,KORSHUNOV,criminal
+affliction,WADE,policeman
+collateral,MAX,driver
+blood simple.,RAY,waiter
+nurse betty,GEORGE,actor
+hannah and her sisters,HOLLY,actor
+friday the 13th part viii: jason takes manhattan,MISS VAN DEUSEN,school teacher
+scream,BILLY,student
+entrapment,GIN,detective
+back to the future,PROFESSOR EMMETT BROWN,scientist
+frances,FRANCES,actor
+made,HORRACE,criminal
+hellraiser iii: hell on earth,JP,businessperson
+the shining,ULLMAN,manager
+the fabulous baker boys,FRANK,musician
+glengarry glen ross,MOSS,salesperson
+predator,DILLON,special agent
+fantastic four,REED,scientist
+crime spree,DANIEL,criminal
+suburbia,PONY,musician
+the thin man,NICK,detective
+escape from l.a.,PLISSKEN,criminal
+my best friend's wedding,DIGGER,editor
+mash,LIEUTENANT DISH,military personnel
+love & basketball,ZEKE,sportsman
+star trek v: the final frontier,KIRK,astronaut
+stalag 17,HARRY,military personnel
+pitch black,PARIS,salesperson
+star trek: generations,PICARD,astronaut
+the exorcist,CHRIS,actor
+some like it hot,OSGOOD,businessperson
+blue velvet,FRANK,criminal
+jurassic park iii,ERIC,child
+basic,HARDY,special agent
+superman iv: the quest for peace,LENNY,criminal
+american psycho,JEAN,assistant
+face/off,POLLUX,criminal
+wild things,KELLY,child
+bound,CORKY,criminal
+nashville,BARNETT,manager
+star trek: first contact,GEORDI,engineer
+blood simple.,VISSER,detective
+the avengers,MOTHER,special agent
+kalifornia,CARRIE,photographer
+shakespeare in love,VIOLA,actor
+trouble in paradise,MARIETTE,businessperson
+the jacket,BECKER,doctor
+sounder,CAMILLE,school teacher
+an officer and a gentleman,ZACK,military personnel
+the exorcist,KARRAS,priest
+the bourne identity,CONKLIN,special agent
+rocky,ROCKY,sportsman
+mission: impossible,ETHAN,special agent
+cruel intentions,RONALD,school teacher
+halloween 4: the return of michael myers,RACHEL,child
+the matrix,CYPHER,military personnel
+cool hand luke,SOCIETY RED,criminal
+suburbia,TIM,military personnel
+there's something about mary,MARY,doctor
+three kings,EPPS,military personnel
+election,TRACY,student
+pirates of the caribbean,JACK,criminal
+star trek: generations,KIRK,astronaut
+the body snatcher,GRAY,driver
+grosse pointe blank,MARTIN,criminal
+the cider house rules,LARCH,doctor
+psycho,NORMAN,businessperson
+thunderheart,COOCH,special agent
+the producers,BIALYSTOCK,director
+dead poets society,NEIL,student
+some like it hot,JOE,musician
+titanic,LOVETT,explorer
+entrapment,MAC,criminal
+schindler's list,SCHINDLER,businessperson
+true lies,HELEN,housewife
+suburbia,SOOZE,student
+the devil and daniel webster,MARY,housewife
+star trek v: the final frontier,SYBOK,criminal
+man on the moon,ZMUDA,writer
+chill factor,ARLO,driver
+wild things,SUZIE,child
+the bridges of madison county,FRANCESCA,housewife
+star trek iv: the voyage home,SPOCK,scientist
+basic instinct,GUS,detective
+the godfather: part ii,PENTANGELI,criminal
+there's something about mary,HEALY,detective
+rush hour 2,LEE,detective
+a walk to remember,REV. SULLIVAN,priest
+spider-man,SPIDER-MAN,photographer
+signs,MORGAN,child
+conspiracy theory,JERRY,driver
+day of the dead,JOHN,airplane pilot
+the man in the iron mask,ATHOS,military personnel
+mash,DUKE,doctor
+american outlaws,FRANK,criminal
+anastasia,RASPUTIN,priest
+the day the earth stood still,BARNHARDT,professor
+tombstone,DOC,doctor
+invaders from mars,MOM,housewife
+the world is not enough,M,special agent
+glengarry glen ross,AARONOW,salesperson
+scary movie 2,PROFESSOR,professor
+the fifth element,CORNELIUS,priest
+tomorrow never dies,BOND,special agent
+starman,FOX,special agent
+metro,KORDA,criminal
+transatlantic merry-go-round,BRETT,criminal
+superman iv: the quest for peace,LEX,criminal
+house of 1000 corpses,BILL,writer
+hellraiser iii: hell on earth,JOEY,tv/radio presenter
+hardcore,JAKE,businessperson
